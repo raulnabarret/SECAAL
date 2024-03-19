@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Etapa Judicial --></label>
+        <name>Etapa_Judicial__c</name>
+        <picklistValues>
+            <masterLabel>Amparo directo</masterLabel>
+            <translation><!-- Amparo directo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Apelación</masterLabel>
+            <translation><!-- Apelación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audiencia de Remate</masterLabel>
+            <translation><!-- Audiencia de Remate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cierre de Juicio</masterLabel>
+            <translation><!-- Cierre de Juicio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contestación a la demanda</masterLabel>
+            <translation><!-- Contestación a la demanda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demanda</masterLabel>
+            <translation><!-- Demanda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deudor ilocalizado en emplazamiento</masterLabel>
+            <translation><!-- Deudor ilocalizado en emplazamiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ejecución de Convenio</masterLabel>
+            <translation><!-- Ejecución de Convenio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ejecución de Sentencia</masterLabel>
+            <translation><!-- Ejecución de Sentencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Embargo antes de Sentencia</masterLabel>
+            <translation><!-- Embargo antes de Sentencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Escrituración en Trámite</masterLabel>
+            <translation><!-- Escrituración en Trámite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incidente / Tercería</masterLabel>
+            <translation><!-- Incidente / Tercería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not. y Emplazam. por edictos en tramite</masterLabel>
+            <translation><!-- Not. y Emplazam. por edictos en tramite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Notificación y emplazamiento personal en trámite</masterLabel>
+            <translation><!-- Notificación y emplazamiento personal en trámite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Para Dictamen</masterLabel>
+            <translation><!-- Para Dictamen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pruebas</masterLabel>
+            <translation><!-- Pruebas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remate de Bienes</masterLabel>
+            <translation><!-- Remate de Bienes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solicitud se dicte sentencia definitiva</masterLabel>
+            <translation><!-- Solicitud se dicte sentencia definitiva --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Toma posesión bien adjudicado y/o arrendado</masterLabel>
+            <translation><!-- Toma posesión bien adjudicado y/o arrendado --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

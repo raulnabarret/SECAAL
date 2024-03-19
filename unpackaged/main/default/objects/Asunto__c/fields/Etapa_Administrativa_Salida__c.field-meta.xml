@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Etapa_Administrativa_Salida__c</fullName>
+    <externalId>false</externalId>
+    <label>Etapa Administrativa Salida</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Recepción de Bienes Muebles y Llaves</fullName>
+                <default>false</default>
+                <label>Recepción de Bienes Muebles y Llaves</label>
+            </value>
+            <value>
+                <fullName>Entrega de Bienes Muebles y Llaves</fullName>
+                <default>false</default>
+                <label>Entrega de Bienes Muebles y Llaves</label>
+            </value>
+            <value>
+                <fullName>Recepción de Bienes INM y Llaves</fullName>
+                <default>false</default>
+                <label>Recepción de Bienes INM y Llaves</label>
+            </value>
+            <value>
+                <fullName>Entrega de Bienes INM y Llaves</fullName>
+                <default>false</default>
+                <label>Entrega de Bienes INM y Llaves</label>
+            </value>
+            <value>
+                <fullName>Devolución de expediente para integrarlo</fullName>
+                <default>false</default>
+                <label>Devolución de expediente para integrarlo</label>
+            </value>
+            <value>
+                <fullName>Devolución del asunto para castigo</fullName>
+                <default>false</default>
+                <label>Devolución del asunto para castigo</label>
+            </value>
+            <value>
+                <fullName>Devolución del asunto por grado prelación</fullName>
+                <default>false</default>
+                <label>Devolución del asunto por grado prelación</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

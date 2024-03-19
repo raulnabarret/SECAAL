@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Esquema__c</fullName>
+    <externalId>false</externalId>
+    <label>Esquema</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Campañas</fullName>
+                <default>false</default>
+                <label>Campañas</label>
+            </value>
+            <value>
+                <fullName>Don Banco</fullName>
+                <default>false</default>
+                <label>Don Banco</label>
+            </value>
+            <value>
+                <fullName>Emergente</fullName>
+                <default>false</default>
+                <label>Emergente</label>
+            </value>
+            <value>
+                <fullName>Empresarial</fullName>
+                <default>false</default>
+                <label>Empresarial</label>
+            </value>
+            <value>
+                <fullName>Ordinario</fullName>
+                <default>false</default>
+                <label>Ordinario</label>
+            </value>
+            <value>
+                <fullName>Rees/Campaña</fullName>
+                <default>false</default>
+                <label>Rees/Campaña</label>
+            </value>
+            <value>
+                <fullName>Rees/Ordinario</fullName>
+                <default>false</default>
+                <label>Rees/Ordinario</label>
+            </value>
+            <value>
+                <fullName>Rees/Saldos Promedio</fullName>
+                <default>false</default>
+                <label>Rees/Saldos Promedio</label>
+            </value>
+            <value>
+                <fullName>Rees/TDC</fullName>
+                <default>false</default>
+                <label>Rees/TDC</label>
+            </value>
+            <value>
+                <fullName>Rees/TPV</fullName>
+                <default>false</default>
+                <label>Rees/TPV</label>
+            </value>
+            <value>
+                <fullName>Saldos Promedio</fullName>
+                <default>false</default>
+                <label>Saldos Promedio</label>
+            </value>
+            <value>
+                <fullName>TDC Socio PYME</fullName>
+                <default>false</default>
+                <label>TDC Socio PYME</label>
+            </value>
+            <value>
+                <fullName>TPV</fullName>
+                <default>false</default>
+                <label>TPV</label>
+            </value>
+            <value>
+                <fullName>Rees/Emergente</fullName>
+                <default>false</default>
+                <label>Rees/Emergente</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

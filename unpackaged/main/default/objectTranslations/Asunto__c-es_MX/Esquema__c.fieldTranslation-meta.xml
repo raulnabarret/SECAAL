@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Esquema --></label>
+        <name>Esquema__c</name>
+        <picklistValues>
+            <masterLabel>Campañas</masterLabel>
+            <translation><!-- Campañas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Don Banco</masterLabel>
+            <translation><!-- Don Banco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emergente</masterLabel>
+            <translation><!-- Emergente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Empresarial</masterLabel>
+            <translation><!-- Empresarial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ordinario</masterLabel>
+            <translation><!-- Ordinario --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rees/Campaña</masterLabel>
+            <translation><!-- Rees/Campaña --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rees/Emergente</masterLabel>
+            <translation><!-- Rees/Emergente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rees/Ordinario</masterLabel>
+            <translation><!-- Rees/Ordinario --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rees/Saldos Promedio</masterLabel>
+            <translation><!-- Rees/Saldos Promedio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rees/TDC</masterLabel>
+            <translation><!-- Rees/TDC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rees/TPV</masterLabel>
+            <translation><!-- Rees/TPV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saldos Promedio</masterLabel>
+            <translation><!-- Saldos Promedio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TDC Socio PYME</masterLabel>
+            <translation><!-- TDC Socio PYME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TPV</masterLabel>
+            <translation><!-- TPV --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

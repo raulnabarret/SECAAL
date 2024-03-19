@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Importe de Adeudo Certificación Contable --></label>
+        <name>Importe_de_Adeudo_Cert_Contable__c</name>
+    </CustomFieldTranslation>

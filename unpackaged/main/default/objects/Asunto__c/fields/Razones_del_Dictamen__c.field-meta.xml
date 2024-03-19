@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Razones_del_Dictamen__c</fullName>
+    <externalId>false</externalId>
+    <label>Razones del Dictamen</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Dictamen_del_Expediente__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bienes Susceptibles de Embargo</fullName>
+                <default>false</default>
+                <label>Bienes Susceptibles de Embargo</label>
+            </value>
+            <value>
+                <fullName>Con Garantías</fullName>
+                <default>false</default>
+                <label>Con Garantías</label>
+            </value>
+            <value>
+                <fullName>Falta Información en Expediente</fullName>
+                <default>false</default>
+                <label>Falta Información en Expediente</label>
+            </value>
+            <value>
+                <fullName>Sin Bienes Inmuebles o Con Bienes Inmuebles Gravados al momento de otorgar Crédito</fullName>
+                <default>false</default>
+                <label>Sin Bienes Inmuebles o Con Bienes Inmuebles Gravados al momento de otorgar Crédito</label>
+            </value>
+            <value>
+                <fullName>Insolvencia por acreedores que embargan las propiedades</fullName>
+                <default>false</default>
+                <label>Insolvencia por acreedores que embargan las propiedades</label>
+            </value>
+            <value>
+                <fullName>Insolvencia por garantias constituidas a favor de terceros</fullName>
+                <default>false</default>
+                <label>Insolvencia por garantias constituidas a favor de terceros</label>
+            </value>
+            <value>
+                <fullName>Insolvencia provocada</fullName>
+                <default>false</default>
+                <label>Insolvencia provocada</label>
+            </value>
+            <value>
+                <fullName>N/A ( Con Bienes Adicionales)</fullName>
+                <default>false</default>
+                <label>N/A ( Con Bienes Adicionales)</label>
+            </value>
+            <value>
+                <fullName>Sin Bienes Inmuebles Gravados al momento de otorgar Crédito</fullName>
+                <default>false</default>
+                <label>Sin Bienes Inmuebles Gravados al momento de otorgar Crédito</label>
+            </value>
+            <value>
+                <fullName>Con Bienes Inmuebles Gravados al momento de otorgar Crédito</fullName>
+                <default>false</default>
+                <label>Con Bienes Inmuebles Gravados al momento de otorgar Crédito</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Carente de Información</controllingFieldValue>
+            <valueName>Falta Información en Expediente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Irrecuperable</controllingFieldValue>
+            <valueName>Sin Bienes Inmuebles o Con Bienes Inmuebles Gravados al momento de otorgar Crédito</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Irrecuperable</controllingFieldValue>
+            <valueName>Insolvencia por acreedores que embargan las propiedades</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Irrecuperable</controllingFieldValue>
+            <valueName>Insolvencia por garantias constituidas a favor de terceros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Irrecuperable</controllingFieldValue>
+            <valueName>Insolvencia provocada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recuperable</controllingFieldValue>
+            <valueName>Bienes Susceptibles de Embargo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recuperable</controllingFieldValue>
+            <valueName>Con Garantías</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

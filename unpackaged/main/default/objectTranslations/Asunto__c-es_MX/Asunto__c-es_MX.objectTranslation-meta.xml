@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Asunto</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Asuntos</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Formato Asunto</layout>
+        <sections>
+            <label><!-- Datos para Demanda --></label>
+            <section>Datos para Demanda</section>
+        </sections>
+        <sections>
+            <label><!-- Etapa Judicial Destacadas --></label>
+            <section>Etapa Judicial Destacadas</section>
+        </sections>
+        <sections>
+            <label><!-- Etapas Administrativas --></label>
+            <section>Etapas Administrativas</section>
+        </sections>
+        <sections>
+            <label><!-- Garantía Nafin --></label>
+            <section>Garantía Nafin</section>
+        </sections>
+        <sections>
+            <label><!-- Juzgado y Jucio --></label>
+            <section>Juzgado y Jucio</section>
+        </sections>
+        <sections>
+            <label><!-- Otros Expedientes Judiciales --></label>
+            <section>Otros Expedientes Judiciales</section>
+        </sections>
+        <sections>
+            <label><!-- Timeline --></label>
+            <section>Timeline</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Asunto Demanda</layout>
+        <sections>
+            <label><!-- Datos para Demanda --></label>
+            <section>Datos para Demanda</section>
+        </sections>
+        <sections>
+            <label><!-- Juzgado y Jucio --></label>
+            <section>Juzgado y Jucio</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Fecha de Recuperación es requerida cuando se selecciona un Esquema de Salida. --></errorMessage>
+        <name>Fecha_recup_si_hay_esquema_de_salida</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Monto Recuperado es requerido cuando se selecciona un Esquema de Salida. --></errorMessage>
+        <name>Monto_requerido_si_hay_esquema_de_salida</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Generatea0r1R00000nvqzCQAQ --></label>
+        <name>Generatea0r1R00000nvqzCQAQ</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generatea0r1R00000nvqzvQAA --></label>
+        <name>Generatea0r1R00000nvqzvQAA</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generatea0r1R00000nvtsxQAA --></label>
+        <name>Generatea0r1R00000nvtsxQAA</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generatea0r1R00000nvurHQAQ --></label>
+        <name>Generatea0r1R00000nvurHQAQ</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generatea0r1R00000nvusjQAA --></label>
+        <name>Generatea0r1R00000nvusjQAA</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generatea0r1R00000nvvboQAA --></label>
+        <name>Generatea0r1R00000nvvboQAA</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generatea0r1R00000nvvvyQAA --></label>
+        <name>Generatea0r1R00000nvvvyQAA</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generatea0r1R00000nvvwSQAQ --></label>
+        <name>Generatea0r1R00000nvvwSQAQ</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generatea0r1R00000nvwWaQAI --></label>
+        <name>Generatea0r1R00000nvwWaQAI</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generatea0r1R00000nvyVZQAY --></label>
+        <name>Generatea0r1R00000nvyVZQAY</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generatea0r1R00000nvyVjQAI --></label>
+        <name>Generatea0r1R00000nvyVjQAI</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generatea0r1R00000nwCb6QAE --></label>
+        <name>Generatea0r1R00000nwCb6QAE</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generatea0r1R00000nwCe5QAE --></label>
+        <name>Generatea0r1R00000nwCe5QAE</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- S_Docs --></label>
+        <name>S_Docs</name>
+    </webLinks>
+</CustomObjectTranslation>

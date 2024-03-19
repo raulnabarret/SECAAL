@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Etapa Administrativa Entrada --></label>
+        <name>Etapa_Administrativa__c</name>
+        <picklistValues>
+            <masterLabel>Acuse Abogado Externo</masterLabel>
+            <translation><!-- Acuse Abogado Externo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clasificación en Irrecuperables</masterLabel>
+            <translation><!-- Clasificación en Irrecuperables --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clasificación en Pendientes</masterLabel>
+            <translation><!-- Clasificación en Pendientes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clasificación en Recuperables</masterLabel>
+            <translation><!-- Clasificación en Recuperables --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recepción de Documentos</masterLabel>
+            <translation><!-- Recepción de Documentos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revisión de Documentos</masterLabel>
+            <translation><!-- Revisión de Documentos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revisión de Garantías y Bienes Susceptibles de Embargo</masterLabel>
+            <translation><!-- Revisión de Garantías y Bienes Susceptibles de Embargo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solicitud de Certificación Contable</masterLabel>
+            <translation><!-- Solicitud de Certificación Contable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solicitud de Documentos Varios</masterLabel>
+            <translation><!-- Solicitud de Documentos Varios --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

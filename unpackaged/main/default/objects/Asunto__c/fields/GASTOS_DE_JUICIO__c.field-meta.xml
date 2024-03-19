@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GASTOS_DE_JUICIO__c</fullName>
+    <externalId>false</externalId>
+    <label>GASTOS DE JUICIO</label>
+    <summarizedField>GASTOS_DE_JUICIO__c.IMPORTE__c</summarizedField>
+    <summaryForeignKey>GASTOS_DE_JUICIO__c.Asunto__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

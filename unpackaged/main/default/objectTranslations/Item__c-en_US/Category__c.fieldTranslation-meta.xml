@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+        <picklistValues>
+            <masterLabel>Clothing</masterLabel>
+            <translation><!-- Clothing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Groceries</masterLabel>
+            <translation><!-- Groceries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home Improvement</masterLabel>
+            <translation><!-- Home Improvement --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

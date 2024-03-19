@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Negociación Extra Judicial --></label>
+        <name>Negociaci_n_Extra_Judicial__c</name>
+        <picklistValues>
+            <masterLabel>Acercamiento con el cliente</masterLabel>
+            <translation><!-- Acercamiento con el cliente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Negociación Concluida</masterLabel>
+            <translation><!-- Negociación Concluida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Propuesta Aprobada y en Ejecución</masterLabel>
+            <translation><!-- Propuesta Aprobada y en Ejecución --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recepción de Propuesta y Preparar para Comité para Autorización</masterLabel>
+            <translation><!-- Recepción de Propuesta y Preparar para Comité para Autorización --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

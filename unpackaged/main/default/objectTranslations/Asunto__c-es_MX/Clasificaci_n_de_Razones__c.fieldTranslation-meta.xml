@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Clasificación de Razones --></label>
+        <name>Clasificaci_n_de_Razones__c</name>
+        <picklistValues>
+            <masterLabel>Reporto inmuebles que no eran de su propiedad</masterLabel>
+            <translation><!-- Reporto inmuebles que no eran de su propiedad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reporto inmuebles que se encontraban gravados desde la solicitud del crédito</masterLabel>
+            <translation><!-- Reporto inmuebles que se encontraban gravados desde la solicitud del crédito --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sin manifestación de propiedades, sin inmuebles localizados en el registro</masterLabel>
+            <translation><!-- Sin manifestación de propiedades, sin inmuebles localizados en el registro --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

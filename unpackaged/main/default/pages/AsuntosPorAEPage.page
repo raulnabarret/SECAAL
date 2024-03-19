@@ -1,0 +1,12 @@
+<apex:page controller="AsuntosPorAEController" showHeader="false" sidebar="false" id="thePage">
+	<apex:pageBlock id="theBlock">
+		<apex:pageBlockSection id="theResults">
+			<apex:pageBlockTable value="{!losAsuntos}" var="asunto">
+					<apex:column headerValue="Acreditado" value="{!asunto.Acreditado__c}"/>
+					<apex:column headerValue="Etapa Judicial Actual" value="{!asunto.Etapa_Judicial_RO__c}"/>
+					<apex:column headerValue="Codigo de Resultado Actual" value="{!asunto.Codigo_de_Resultado_RO__c}"/>
+					<apex:column headerValue="Abogado Interno" value="{!asunto.Abogado_Interno__c}"/>
+				</apex:pageBlockTable>
+		</apex:pageBlockSection>
+	</apex:pageBlock>
+</apex:page>

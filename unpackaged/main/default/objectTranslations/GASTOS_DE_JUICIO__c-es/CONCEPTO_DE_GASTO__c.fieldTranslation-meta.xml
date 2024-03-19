@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- CONCEPTO DE GASTO --></label>
+        <name>CONCEPTO_DE_GASTO__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Factoraje</fullName>
+    <columns>NAME</columns>
+    <columns>Abogado_Interno__c</columns>
+    <columns>Abogado_Externo__c</columns>
+    <columns>Acreditado__c</columns>
+    <columns>Monto_Reclamado__c</columns>
+    <columns>Etapa_Judicial_RO__c</columns>
+    <columns>Juzgado__c</columns>
+    <columns>Expediente__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Direcci_n_o_Filial__c</field>
+        <operation>equals</operation>
+        <value>Factoraje</value>
+    </filters>
+    <label>Factoraje</label>
+</ListView>

@@ -1,0 +1,2423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>C_digo_de_Resultado__c</fullName>
+    <externalId>false</externalId>
+    <label>Código de Resultado</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Etapa_Judicial__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>10 - Asignación a Externo</fullName>
+                <default>false</default>
+                <label>10 - Asignación a Externo</label>
+            </value>
+            <value>
+                <fullName>AD - Rechazo de la demanda</fullName>
+                <default>false</default>
+                <label>AD - Rechazo de la demanda</label>
+            </value>
+            <value>
+                <fullName>20 - Aclaración de la demanda</fullName>
+                <default>false</default>
+                <label>20 - Aclaración de la demanda</label>
+            </value>
+            <value>
+                <fullName>4A - Prevención para admisión de la demanda</fullName>
+                <default>false</default>
+                <label>4A - Prevención para admisión de la demanda</label>
+            </value>
+            <value>
+                <fullName>5A - Desahogo Prev. para admisión de demanda</fullName>
+                <default>false</default>
+                <label>5A - Desahogo Prev. para admisión de demanda</label>
+            </value>
+            <value>
+                <fullName>6A - Pendiente radicación de la demanda</fullName>
+                <default>false</default>
+                <label>6A - Pendiente radicación de la demanda</label>
+            </value>
+            <value>
+                <fullName>7A - Incompetencia del Juez</fullName>
+                <default>false</default>
+                <label>7A - Incompetencia del Juez</label>
+            </value>
+            <value>
+                <fullName>8A - Demanda Admitida</fullName>
+                <default>false</default>
+                <label>8A - Demanda Admitida</label>
+            </value>
+            <value>
+                <fullName>9A - Desechamiento de la  de la demanda</fullName>
+                <default>false</default>
+                <label>9A - Desechamiento de la  de la demanda</label>
+            </value>
+            <value>
+                <fullName>0A - Instructivo en Elaboración</fullName>
+                <default>false</default>
+                <label>0A - Instructivo en Elaboración</label>
+            </value>
+            <value>
+                <fullName>1B - Despecho / Exhorto Elabora y Presenta</fullName>
+                <default>false</default>
+                <label>1B - Despecho / Exhorto Elabora y Presenta</label>
+            </value>
+            <value>
+                <fullName>2B - Despacho / Exhorto Dilig. - Devolución</fullName>
+                <default>false</default>
+                <label>2B - Despacho / Exhorto Dilig. - Devolución</label>
+            </value>
+            <value>
+                <fullName>3B - Desig. Actuario / Not. Encarga Actuario</fullName>
+                <default>false</default>
+                <label>3B - Desig. Actuario / Not. Encarga Actuario</label>
+            </value>
+            <value>
+                <fullName>4B - Cita para Realizar Emplazamiento</fullName>
+                <default>false</default>
+                <label>4B - Cita para Realizar Emplazamiento</label>
+            </value>
+            <value>
+                <fullName>5B - Diligencia de Emplazamiento</fullName>
+                <default>false</default>
+                <label>5B - Diligencia de Emplazamiento</label>
+            </value>
+            <value>
+                <fullName>6B - Diligencia no Realizada</fullName>
+                <default>false</default>
+                <label>6B - Diligencia no Realizada</label>
+            </value>
+            <value>
+                <fullName>7B - DNR por Inasistencia de Funcionario</fullName>
+                <default>false</default>
+                <label>7B - DNR por Inasistencia de Funcionario</label>
+            </value>
+            <value>
+                <fullName>8B - DNR por no Encontrarse Persona Alguna</fullName>
+                <default>false</default>
+                <label>8B - DNR por no Encontrarse Persona Alguna</label>
+            </value>
+            <value>
+                <fullName>9B - DNR por no ser Domicilio del Demandado</fullName>
+                <default>false</default>
+                <label>9B - DNR por no ser Domicilio del Demandado</label>
+            </value>
+            <value>
+                <fullName>0B - DNR por haber solo Menores de Edad</fullName>
+                <default>false</default>
+                <label>0B - DNR por haber solo Menores de Edad</label>
+            </value>
+            <value>
+                <fullName>30 - DNR por Negarse a Recibir Notificación</fullName>
+                <default>false</default>
+                <label>30 - DNR por Negarse a Recibir Notificación</label>
+            </value>
+            <value>
+                <fullName>40 - Emplazamiento Parcial</fullName>
+                <default>false</default>
+                <label>40 - Emplazamiento Parcial</label>
+            </value>
+            <value>
+                <fullName>3C - Autoriza Días/Horas Inhábil x Emplazar</fullName>
+                <default>false</default>
+                <label>3C - Autoriza Días/Horas Inhábil x Emplazar</label>
+            </value>
+            <value>
+                <fullName>4C - Se Señala Nuevo Domicilio para Emplazar</fullName>
+                <default>false</default>
+                <label>4C - Se Señala Nuevo Domicilio para Emplazar</label>
+            </value>
+            <value>
+                <fullName>5C - Notificación y Emplazamiento Efectuado</fullName>
+                <default>false</default>
+                <label>5C - Notificación y Emplazamiento Efectuado</label>
+            </value>
+            <value>
+                <fullName>6C - Solicita Pesquisas Autoridades</fullName>
+                <default>false</default>
+                <label>6C - Solicita Pesquisas Autoridades</label>
+            </value>
+            <value>
+                <fullName>7C - Obtención de Oficios x Pesquisas</fullName>
+                <default>false</default>
+                <label>7C - Obtención de Oficios x Pesquisas</label>
+            </value>
+            <value>
+                <fullName>8C - Presenta Oficios Pesquisas/se Razonan</fullName>
+                <default>false</default>
+                <label>8C - Presenta Oficios Pesquisas/se Razonan</label>
+            </value>
+            <value>
+                <fullName>9C - Respuesta a Oficio de Localización</fullName>
+                <default>false</default>
+                <label>9C - Respuesta a Oficio de Localización</label>
+            </value>
+            <value>
+                <fullName>0C - Ilocalizada No Emplazada / No Litis</fullName>
+                <default>false</default>
+                <label>0C - Ilocalizada No Emplazada / No Litis</label>
+            </value>
+            <value>
+                <fullName>1D - Ofi. Completos - Sol. Emplazar Edictos</fullName>
+                <default>false</default>
+                <label>1D - Ofi. Completos - Sol. Emplazar Edictos</label>
+            </value>
+            <value>
+                <fullName>2D - Autoriza Empla. Edictos - Solicita Gastos</fullName>
+                <default>false</default>
+                <label>2D - Autoriza Empla. Edictos - Solicita Gastos</label>
+            </value>
+            <value>
+                <fullName>3D - Elaboración de Edictos x Emplazamiento</fullName>
+                <default>false</default>
+                <label>3D - Elaboración de Edictos x Emplazamiento</label>
+            </value>
+            <value>
+                <fullName>4D - Publicación de Edictos de Emplazamiento</fullName>
+                <default>false</default>
+                <label>4D - Publicación de Edictos de Emplazamiento</label>
+            </value>
+            <value>
+                <fullName>5D - Presenta Edictos Publicados</fullName>
+                <default>false</default>
+                <label>5D - Presenta Edictos Publicados</label>
+            </value>
+            <value>
+                <fullName>6D - Not. y Emplazamiento x Edictos Efectuado</fullName>
+                <default>false</default>
+                <label>6D - Not. y Emplazamiento x Edictos Efectuado</label>
+            </value>
+            <value>
+                <fullName>7D - Demandado Contesta</fullName>
+                <default>false</default>
+                <label>7D - Demandado Contesta</label>
+            </value>
+            <value>
+                <fullName>8D - Demandado No Contesta</fullName>
+                <default>false</default>
+                <label>8D - Demandado No Contesta</label>
+            </value>
+            <value>
+                <fullName>9D - Se acusa Rebeldía</fullName>
+                <default>false</default>
+                <label>9D - Se acusa Rebeldía</label>
+            </value>
+            <value>
+                <fullName>0D - Contestan Alguno (s) del (os) Demandado (s)</fullName>
+                <default>false</default>
+                <label>0D - Contestan Alguno (s) del (os) Demandado (s)</label>
+            </value>
+            <value>
+                <fullName>50 -  Excepciones de la Demanda</fullName>
+                <default>false</default>
+                <label>50 -  Excepciones de la Demanda</label>
+            </value>
+            <value>
+                <fullName>2E - Falta de Personalidad</fullName>
+                <default>false</default>
+                <label>2E - Falta de Personalidad</label>
+            </value>
+            <value>
+                <fullName>3E - Incompetencia</fullName>
+                <default>false</default>
+                <label>3E - Incompetencia</label>
+            </value>
+            <value>
+                <fullName>4E - Error de la Vía</fullName>
+                <default>false</default>
+                <label>4E - Error de la Vía</label>
+            </value>
+            <value>
+                <fullName>5E - Certificación Contable Deficiente</fullName>
+                <default>false</default>
+                <label>5E - Certificación Contable Deficiente</label>
+            </value>
+            <value>
+                <fullName>6E - Crédito No Dispuesto</fullName>
+                <default>false</default>
+                <label>6E - Crédito No Dispuesto</label>
+            </value>
+            <value>
+                <fullName>7E - Negativa Suscripción Documentos Base</fullName>
+                <default>false</default>
+                <label>7E - Negativa Suscripción Documentos Base</label>
+            </value>
+            <value>
+                <fullName>8E - Pago</fullName>
+                <default>false</default>
+                <label>8E - Pago</label>
+            </value>
+            <value>
+                <fullName>9E - Novaciòn</fullName>
+                <default>false</default>
+                <label>9E - Novaciòn</label>
+            </value>
+            <value>
+                <fullName>0E - Espera</fullName>
+                <default>false</default>
+                <label>0E - Espera</label>
+            </value>
+            <value>
+                <fullName>1F - Litispendencia</fullName>
+                <default>false</default>
+                <label>1F - Litispendencia</label>
+            </value>
+            <value>
+                <fullName>2F - Conexidad de la Causa</fullName>
+                <default>false</default>
+                <label>2F - Conexidad de la Causa</label>
+            </value>
+            <value>
+                <fullName>3F - División y Excusiòn</fullName>
+                <default>false</default>
+                <label>3F - División y Excusiòn</label>
+            </value>
+            <value>
+                <fullName>4F - Otras Especificar ___________</fullName>
+                <default>false</default>
+                <label>4F - Otras Especificar ___________</label>
+            </value>
+            <value>
+                <fullName>5F - Escrito de Replica</fullName>
+                <default>false</default>
+                <label>5F - Escrito de Replica</label>
+            </value>
+            <value>
+                <fullName>6F - La Parte Demandad No Contesta</fullName>
+                <default>false</default>
+                <label>6F - La Parte Demandad No Contesta</label>
+            </value>
+            <value>
+                <fullName>7F - La Demandada Se Allana</fullName>
+                <default>false</default>
+                <label>7F - La Demandada Se Allana</label>
+            </value>
+            <value>
+                <fullName>8F - Se Ordena Vista a la Contestación</fullName>
+                <default>false</default>
+                <label>8F - Se Ordena Vista a la Contestación</label>
+            </value>
+            <value>
+                <fullName>9F - Se Desahoga Vista a la Contestación</fullName>
+                <default>false</default>
+                <label>9F - Se Desahoga Vista a la Contestación</label>
+            </value>
+            <value>
+                <fullName>.</fullName>
+                <default>false</default>
+                <label>.</label>
+            </value>
+            <value>
+                <fullName>0F - Señala para Embargo (Antes de Sentencia)</fullName>
+                <default>false</default>
+                <label>0F - Señala para Embargo (Antes de Sentencia)</label>
+            </value>
+            <value>
+                <fullName>1G - Inscripción Embargo Antes de Sentencia</fullName>
+                <default>false</default>
+                <label>1G - Inscripción Embargo Antes de Sentencia</label>
+            </value>
+            <value>
+                <fullName>2G - Previene Entrega Volunt. Antes de Sentencia</fullName>
+                <default>false</default>
+                <label>2G - Previene Entrega Volunt. Antes de Sentencia</label>
+            </value>
+            <value>
+                <fullName>3G - Fuerza Pública Antes de Sentencia</fullName>
+                <default>false</default>
+                <label>3G - Fuerza Pública Antes de Sentencia</label>
+            </value>
+            <value>
+                <fullName>4G - Cateo / Fuerza Pública Antes de Sentencia</fullName>
+                <default>false</default>
+                <label>4G - Cateo / Fuerza Pública Antes de Sentencia</label>
+            </value>
+            <value>
+                <fullName>5G - Multa No Entrega Mueble Antes Sentencia</fullName>
+                <default>false</default>
+                <label>5G - Multa No Entrega Mueble Antes Sentencia</label>
+            </value>
+            <value>
+                <fullName>6G - Arresto No Entrega Mueble Antes Sentencia</fullName>
+                <default>false</default>
+                <label>6G - Arresto No Entrega Mueble Antes Sentencia</label>
+            </value>
+            <value>
+                <fullName>7G - Ejecución de Arresto Antes de Sentencia</fullName>
+                <default>false</default>
+                <label>7G - Ejecución de Arresto Antes de Sentencia</label>
+            </value>
+            <value>
+                <fullName>8G - Posesión Bien Embargado Antes Sentencia</fullName>
+                <default>false</default>
+                <label>8G - Posesión Bien Embargado Antes Sentencia</label>
+            </value>
+            <value>
+                <fullName>9G - Intervención con Cargo a la Caja</fullName>
+                <default>false</default>
+                <label>9G - Intervención con Cargo a la Caja</label>
+            </value>
+            <value>
+                <fullName>0G - Designación y Aceptación de ICC</fullName>
+                <default>false</default>
+                <label>0G - Designación y Aceptación de ICC</label>
+            </value>
+            <value>
+                <fullName>1H - Prevención Entrega Voluntaria de la Caja</fullName>
+                <default>false</default>
+                <label>1H - Prevención Entrega Voluntaria de la Caja</label>
+            </value>
+            <value>
+                <fullName>2H - Autorización de Fuerza Pública ICC</fullName>
+                <default>false</default>
+                <label>2H - Autorización de Fuerza Pública ICC</label>
+            </value>
+            <value>
+                <fullName>3H - Autoriza. de Cateo y Fuerza Pública ICC</fullName>
+                <default>false</default>
+                <label>3H - Autoriza. de Cateo y Fuerza Pública ICC</label>
+            </value>
+            <value>
+                <fullName>4H - Multa por No Entregar Bien Mueble ICC</fullName>
+                <default>false</default>
+                <label>4H - Multa por No Entregar Bien Mueble ICC</label>
+            </value>
+            <value>
+                <fullName>5H - Arresto por No Entregar Bien Mueble ICC</fullName>
+                <default>false</default>
+                <label>5H - Arresto por No Entregar Bien Mueble ICC</label>
+            </value>
+            <value>
+                <fullName>6H - Ejecución de Arresto ICC</fullName>
+                <default>false</default>
+                <label>6H - Ejecución de Arresto ICC</label>
+            </value>
+            <value>
+                <fullName>7H - Toma de Posesión de Bien Embargado ICC</fullName>
+                <default>false</default>
+                <label>7H - Toma de Posesión de Bien Embargado ICC</label>
+            </value>
+            <value>
+                <fullName>8H - Descripción, Ubicación y Responsable ICC</fullName>
+                <default>false</default>
+                <label>8H - Descripción, Ubicación y Responsable ICC</label>
+            </value>
+            <value>
+                <fullName>9H - Embargo Cuentas Bancarias</fullName>
+                <default>false</default>
+                <label>9H - Embargo Cuentas Bancarias</label>
+            </value>
+            <value>
+                <fullName>0H - Se Solicita la Apertura a Pruebas</fullName>
+                <default>false</default>
+                <label>0H - Se Solicita la Apertura a Pruebas</label>
+            </value>
+            <value>
+                <fullName>61 - Término Común para Ofrecer Pruebas</fullName>
+                <default>false</default>
+                <label>61 - Término Común para Ofrecer Pruebas</label>
+            </value>
+            <value>
+                <fullName>62 - Presentación de Pruebas</fullName>
+                <default>false</default>
+                <label>62 - Presentación de Pruebas</label>
+            </value>
+            <value>
+                <fullName>63 - Calificación de Pruebas</fullName>
+                <default>false</default>
+                <label>63 - Calificación de Pruebas</label>
+            </value>
+            <value>
+                <fullName>64 - Admisión de Pruebas de la Actora</fullName>
+                <default>false</default>
+                <label>64 - Admisión de Pruebas de la Actora</label>
+            </value>
+            <value>
+                <fullName>65 - Desechan Pruebas de la Actora</fullName>
+                <default>false</default>
+                <label>65 - Desechan Pruebas de la Actora</label>
+            </value>
+            <value>
+                <fullName>66 - Admisión de Pruebas de la Demandada</fullName>
+                <default>false</default>
+                <label>66 - Admisión de Pruebas de la Demandada</label>
+            </value>
+            <value>
+                <fullName>67 - Desechan Pruebas de la Demandada</fullName>
+                <default>false</default>
+                <label>67 - Desechan Pruebas de la Demandada</label>
+            </value>
+            <value>
+                <fullName>68 - Fecha para Desahogar Testimonial</fullName>
+                <default>false</default>
+                <label>68 - Fecha para Desahogar Testimonial</label>
+            </value>
+            <value>
+                <fullName>69 - Fecha para Desahogar Confesional</fullName>
+                <default>false</default>
+                <label>69 - Fecha para Desahogar Confesional</label>
+            </value>
+            <value>
+                <fullName>70 - Actora Designa Perito</fullName>
+                <default>false</default>
+                <label>70 - Actora Designa Perito</label>
+            </value>
+            <value>
+                <fullName>1J - Dictamen Pericial de la Actora</fullName>
+                <default>false</default>
+                <label>1J - Dictamen Pericial de la Actora</label>
+            </value>
+            <value>
+                <fullName>2J - Pericial Tercero en Discordia</fullName>
+                <default>false</default>
+                <label>2J - Pericial Tercero en Discordia</label>
+            </value>
+            <value>
+                <fullName>3J - Prueba Pericial Desierta</fullName>
+                <default>false</default>
+                <label>3J - Prueba Pericial Desierta</label>
+            </value>
+            <value>
+                <fullName>4J - Pericial Tercero en Discordia</fullName>
+                <default>false</default>
+                <label>4J - Pericial Tercero en Discordia</label>
+            </value>
+            <value>
+                <fullName>5J - Prueba Pericial Desierta (2a)</fullName>
+                <default>false</default>
+                <label>5J - Prueba Pericial Desierta (2a)</label>
+            </value>
+            <value>
+                <fullName>6J - Prueba Pericial Desierta (3a)</fullName>
+                <default>false</default>
+                <label>6J - Prueba Pericial Desierta (3a)</label>
+            </value>
+            <value>
+                <fullName>7J - Inspección Judicial</fullName>
+                <default>false</default>
+                <label>7J - Inspección Judicial</label>
+            </value>
+            <value>
+                <fullName>8J - Se Admite Inspección y se Fija Fecha</fullName>
+                <default>false</default>
+                <label>8J - Se Admite Inspección y se Fija Fecha</label>
+            </value>
+            <value>
+                <fullName>9J - Se Desahoga Inspección</fullName>
+                <default>false</default>
+                <label>9J - Se Desahoga Inspección</label>
+            </value>
+            <value>
+                <fullName>0J - Inspección se Materializa</fullName>
+                <default>false</default>
+                <label>0J - Inspección se Materializa</label>
+            </value>
+            <value>
+                <fullName>1K - Concluye Período Probatorio</fullName>
+                <default>false</default>
+                <label>1K - Concluye Período Probatorio</label>
+            </value>
+            <value>
+                <fullName>2K - Apertura Alegatos</fullName>
+                <default>false</default>
+                <label>2K - Apertura Alegatos</label>
+            </value>
+            <value>
+                <fullName>3K - Alegatos Presenta la Actora</fullName>
+                <default>false</default>
+                <label>3K - Alegatos Presenta la Actora</label>
+            </value>
+            <value>
+                <fullName>4K - Alegatos Presenta la Demandada</fullName>
+                <default>false</default>
+                <label>4K - Alegatos Presenta la Demandada</label>
+            </value>
+            <value>
+                <fullName>5K - Se Solicita se Dicte Sentencia</fullName>
+                <default>false</default>
+                <label>5K - Se Solicita se Dicte Sentencia</label>
+            </value>
+            <value>
+                <fullName>6K - En Proyecto de Sentencia Definitiva</fullName>
+                <default>false</default>
+                <label>6K - En Proyecto de Sentencia Definitiva</label>
+            </value>
+            <value>
+                <fullName>7K - Sentencia Definitiva a Favor</fullName>
+                <default>false</default>
+                <label>7K - Sentencia Definitiva a Favor</label>
+            </value>
+            <value>
+                <fullName>8K - Sentencia Definitiva Parcial Favorable</fullName>
+                <default>false</default>
+                <label>8K - Sentencia Definitiva Parcial Favorable</label>
+            </value>
+            <value>
+                <fullName>9K - Sentencia Definitiva Improcedente</fullName>
+                <default>false</default>
+                <label>9K - Sentencia Definitiva Improcedente</label>
+            </value>
+            <value>
+                <fullName>0K - Sentencia Notificada a la Demandada</fullName>
+                <default>false</default>
+                <label>0K - Sentencia Notificada a la Demandada</label>
+            </value>
+            <value>
+                <fullName>1L - Notificación de Sentencia a la Actora</fullName>
+                <default>false</default>
+                <label>1L - Notificación de Sentencia a la Actora</label>
+            </value>
+            <value>
+                <fullName>2L - Expira Término para Apelación</fullName>
+                <default>false</default>
+                <label>2L - Expira Término para Apelación</label>
+            </value>
+            <value>
+                <fullName>3L - Recurso de Aclaración de Sentencia</fullName>
+                <default>false</default>
+                <label>3L - Recurso de Aclaración de Sentencia</label>
+            </value>
+            <value>
+                <fullName>4L - Admisión de Recurso y Ordena Vista</fullName>
+                <default>false</default>
+                <label>4L - Admisión de Recurso y Ordena Vista</label>
+            </value>
+            <value>
+                <fullName>5L - Resolución de Aclaración Definitiva de Sentencia</fullName>
+                <default>false</default>
+                <label>5L - Resolución de Aclaración Definitiva de Sentencia</label>
+            </value>
+            <value>
+                <fullName>6L - Se Admite Apelación</fullName>
+                <default>false</default>
+                <label>6L - Se Admite Apelación</label>
+            </value>
+            <value>
+                <fullName>7L - Se tiene Desahogada Vista de Apelación</fullName>
+                <default>false</default>
+                <label>7L - Se tiene Desahogada Vista de Apelación</label>
+            </value>
+            <value>
+                <fullName>8L - Envío de Autos para Trámite de Apelación</fullName>
+                <default>false</default>
+                <label>8L - Envío de Autos para Trámite de Apelación</label>
+            </value>
+            <value>
+                <fullName>9L - Radicacion de Apelación en Sala</fullName>
+                <default>false</default>
+                <label>9L - Radicacion de Apelación en Sala</label>
+            </value>
+            <value>
+                <fullName>0L - Se Ordena Dictar Sentencia de Apelación</fullName>
+                <default>false</default>
+                <label>0L - Se Ordena Dictar Sentencia de Apelación</label>
+            </value>
+            <value>
+                <fullName>1M - Se Dicta Sentencia de Apelación</fullName>
+                <default>false</default>
+                <label>1M - Se Dicta Sentencia de Apelación</label>
+            </value>
+            <value>
+                <fullName>2M - Sentencia de Apelación Confirma</fullName>
+                <default>false</default>
+                <label>2M - Sentencia de Apelación Confirma</label>
+            </value>
+            <value>
+                <fullName>3M - Apelación Modifica Acciones de la Actora</fullName>
+                <default>false</default>
+                <label>3M - Apelación Modifica Acciones de la Actora</label>
+            </value>
+            <value>
+                <fullName>4M - Apelación Revoca Acciones de la Actora</fullName>
+                <default>false</default>
+                <label>4M - Apelación Revoca Acciones de la Actora</label>
+            </value>
+            <value>
+                <fullName>5M - Sentencia Apelación Favorable a Actora</fullName>
+                <default>false</default>
+                <label>5M - Sentencia Apelación Favorable a Actora</label>
+            </value>
+            <value>
+                <fullName>6M - Notificación Actora Sentencia Apelación</fullName>
+                <default>false</default>
+                <label>6M - Notificación Actora Sentencia Apelación</label>
+            </value>
+            <value>
+                <fullName>7M . Notificación Reo Sentencia Apelación</fullName>
+                <default>false</default>
+                <label>7M . Notificación Reo Sentencia Apelación</label>
+            </value>
+            <value>
+                <fullName>8M - Concluye Plazo para Amparo Directo</fullName>
+                <default>false</default>
+                <label>8M - Concluye Plazo para Amparo Directo</label>
+            </value>
+            <value>
+                <fullName>9M - Amparo Directo en Sala</fullName>
+                <default>false</default>
+                <label>9M - Amparo Directo en Sala</label>
+            </value>
+            <value>
+                <fullName>0M - Admisión Amparo Directo</fullName>
+                <default>false</default>
+                <label>0M - Admisión Amparo Directo</label>
+            </value>
+            <value>
+                <fullName>1N - Notificación a 3º de Amparo Directo</fullName>
+                <default>false</default>
+                <label>1N - Notificación a 3º de Amparo Directo</label>
+            </value>
+            <value>
+                <fullName>2N - Suspensión Acto Reclamado</fullName>
+                <default>false</default>
+                <label>2N - Suspensión Acto Reclamado</label>
+            </value>
+            <value>
+                <fullName>3N - Niega Suspensión</fullName>
+                <default>false</default>
+                <label>3N - Niega Suspensión</label>
+            </value>
+            <value>
+                <fullName>4N - Quejoso Otorga Cauciòn</fullName>
+                <default>false</default>
+                <label>4N - Quejoso Otorga Cauciòn</label>
+            </value>
+            <value>
+                <fullName>5N - Remisión de Amparo Directo</fullName>
+                <default>false</default>
+                <label>5N - Remisión de Amparo Directo</label>
+            </value>
+            <value>
+                <fullName>6N - Colegiado Recibe Amparo Directo</fullName>
+                <default>false</default>
+                <label>6N - Colegiado Recibe Amparo Directo</label>
+            </value>
+            <value>
+                <fullName>7N - Amparo Directo Desechado</fullName>
+                <default>false</default>
+                <label>7N - Amparo Directo Desechado</label>
+            </value>
+            <value>
+                <fullName>8N - Reclamación Amparo Directo Desechado</fullName>
+                <default>false</default>
+                <label>8N - Reclamación Amparo Directo Desechado</label>
+            </value>
+            <value>
+                <fullName>9N - Confirmación Desechamiento</fullName>
+                <default>false</default>
+                <label>9N - Confirmación Desechamiento</label>
+            </value>
+            <value>
+                <fullName>0N - Revocación y Admisión Amparo</fullName>
+                <default>false</default>
+                <label>0N - Revocación y Admisión Amparo</label>
+            </value>
+            <value>
+                <fullName>2Ñ - En Proyecto de Sentencia Amparo</fullName>
+                <default>false</default>
+                <label>2Ñ - En Proyecto de Sentencia Amparo</label>
+            </value>
+            <value>
+                <fullName>3Ñ - Votación Colegiado Proyecto Sentencia</fullName>
+                <default>false</default>
+                <label>3Ñ - Votación Colegiado Proyecto Sentencia</label>
+            </value>
+            <value>
+                <fullName>4Ñ - Aplazamiento de Sentencia</fullName>
+                <default>false</default>
+                <label>4Ñ - Aplazamiento de Sentencia</label>
+            </value>
+            <value>
+                <fullName>5Ñ - Sentencia de Amparo Directo</fullName>
+                <default>false</default>
+                <label>5Ñ - Sentencia de Amparo Directo</label>
+            </value>
+            <value>
+                <fullName>6Ñ - Negación de Amparo Directo</fullName>
+                <default>false</default>
+                <label>6Ñ - Negación de Amparo Directo</label>
+            </value>
+            <value>
+                <fullName>7Ñ - Amparo Directo Procedente</fullName>
+                <default>false</default>
+                <label>7Ñ - Amparo Directo Procedente</label>
+            </value>
+            <value>
+                <fullName>8Ñ - Amparo Revoca Sentencia 2ª Instancia</fullName>
+                <default>false</default>
+                <label>8Ñ - Amparo Revoca Sentencia 2ª Instancia</label>
+            </value>
+            <value>
+                <fullName>9Ñ - Cumple Ejecutoria Amparo</fullName>
+                <default>false</default>
+                <label>9Ñ - Cumple Ejecutoria Amparo</label>
+            </value>
+            <value>
+                <fullName>0Ñ - Apelación Confirma Definitiva</fullName>
+                <default>false</default>
+                <label>0Ñ - Apelación Confirma Definitiva</label>
+            </value>
+            <value>
+                <fullName>1O - Apelación Modifica Parcial 1ª Instancia</fullName>
+                <default>false</default>
+                <label>1O - Apelación Modifica Parcial 1ª Instancia</label>
+            </value>
+            <value>
+                <fullName>2O - Apelación Revoca Negativa Actora</fullName>
+                <default>false</default>
+                <label>2O - Apelación Revoca Negativa Actora</label>
+            </value>
+            <value>
+                <fullName>3O - Apelación Revoca Favorable Actora</fullName>
+                <default>false</default>
+                <label>3O - Apelación Revoca Favorable Actora</label>
+            </value>
+            <value>
+                <fullName>4O - Remisión Expediente Juzgado Origen</fullName>
+                <default>false</default>
+                <label>4O - Remisión Expediente Juzgado Origen</label>
+            </value>
+            <value>
+                <fullName>5O - Notificación Llegada de Autos a Juzgado</fullName>
+                <default>false</default>
+                <label>5O - Notificación Llegada de Autos a Juzgado</label>
+            </value>
+            <value>
+                <fullName>6O - Acuerdo y Not. de Sentencia Ejecutoria</fullName>
+                <default>false</default>
+                <label>6O - Acuerdo y Not. de Sentencia Ejecutoria</label>
+            </value>
+            <value>
+                <fullName>7O - Señala para Embargo</fullName>
+                <default>false</default>
+                <label>7O - Señala para Embargo</label>
+            </value>
+            <value>
+                <fullName>8O - Inscripción de Embargo (s) se Realiza</fullName>
+                <default>false</default>
+                <label>8O - Inscripción de Embargo (s) se Realiza</label>
+            </value>
+            <value>
+                <fullName>9O - Prevención Entrega Voluntaria</fullName>
+                <default>false</default>
+                <label>9O - Prevención Entrega Voluntaria</label>
+            </value>
+            <value>
+                <fullName>0O- Autorización de Fuerza Pública</fullName>
+                <default>false</default>
+                <label>0O- Autorización de Fuerza Pública</label>
+            </value>
+            <value>
+                <fullName>1P - Autorización de Cateo y Fuerza Pública</fullName>
+                <default>false</default>
+                <label>1P - Autorización de Cateo y Fuerza Pública</label>
+            </value>
+            <value>
+                <fullName>2P - Multa por No Entregar Bien Mueble</fullName>
+                <default>false</default>
+                <label>2P - Multa por No Entregar Bien Mueble</label>
+            </value>
+            <value>
+                <fullName>3P - Arresto por No Entregar Bien Mueble</fullName>
+                <default>false</default>
+                <label>3P - Arresto por No Entregar Bien Mueble</label>
+            </value>
+            <value>
+                <fullName>4P -  Ejecución  de Arresto</fullName>
+                <default>false</default>
+                <label>4P -  Ejecución  de Arresto</label>
+            </value>
+            <value>
+                <fullName>5P - Toma de Posesión de Bien Embargado</fullName>
+                <default>false</default>
+                <label>5P - Toma de Posesión de Bien Embargado</label>
+            </value>
+            <value>
+                <fullName>6P - Designación y Aceptación de ICC</fullName>
+                <default>false</default>
+                <label>6P - Designación y Aceptación de ICC</label>
+            </value>
+            <value>
+                <fullName>7P - Prevención Entrega Voluntaria de la Caja</fullName>
+                <default>false</default>
+                <label>7P - Prevención Entrega Voluntaria de la Caja</label>
+            </value>
+            <value>
+                <fullName>8P - Autorización de Fuerza Publica ICC</fullName>
+                <default>false</default>
+                <label>8P - Autorización de Fuerza Publica ICC</label>
+            </value>
+            <value>
+                <fullName>9P - Autoriza Cateo y Fuerza Pública ICC</fullName>
+                <default>false</default>
+                <label>9P - Autoriza Cateo y Fuerza Pública ICC</label>
+            </value>
+            <value>
+                <fullName>0P - Multa por No Entregar Bien Mueble ICC</fullName>
+                <default>false</default>
+                <label>0P - Multa por No Entregar Bien Mueble ICC</label>
+            </value>
+            <value>
+                <fullName>1Q - Arresto por No Entregar Bien Mueble  ICC</fullName>
+                <default>false</default>
+                <label>1Q - Arresto por No Entregar Bien Mueble  ICC</label>
+            </value>
+            <value>
+                <fullName>2Q - Ejecución de arresto ICC</fullName>
+                <default>false</default>
+                <label>2Q - Ejecución de arresto ICC</label>
+            </value>
+            <value>
+                <fullName>3Q - Toma de Posesión de Bien Embargado ICC</fullName>
+                <default>false</default>
+                <label>3Q - Toma de Posesión de Bien Embargado ICC</label>
+            </value>
+            <value>
+                <fullName>4Q - Descripción, Ubicación y Responsable ICC</fullName>
+                <default>false</default>
+                <label>4Q - Descripción, Ubicación y Responsable ICC</label>
+            </value>
+            <value>
+                <fullName>5Q - Embargo Cuentas Bancarias</fullName>
+                <default>false</default>
+                <label>5Q - Embargo Cuentas Bancarias</label>
+            </value>
+            <value>
+                <fullName>6Q - Recibe Recurso de Cuentas Bancarias</fullName>
+                <default>false</default>
+                <label>6Q - Recibe Recurso de Cuentas Bancarias</label>
+            </value>
+            <value>
+                <fullName>3Z - Inscripción Convenio</fullName>
+                <default>false</default>
+                <label>3Z - Inscripción Convenio</label>
+            </value>
+            <value>
+                <fullName>4Z - Prevención Cumplimiento Convenio</fullName>
+                <default>false</default>
+                <label>4Z - Prevención Cumplimiento Convenio</label>
+            </value>
+            <value>
+                <fullName>5Z - Desahogo Cumplimiento Convenio Demandado</fullName>
+                <default>false</default>
+                <label>5Z - Desahogo Cumplimiento Convenio Demandado</label>
+            </value>
+            <value>
+                <fullName>6Z - Deshago Vista Cumplimiento de Convenio Actor</fullName>
+                <default>false</default>
+                <label>6Z - Deshago Vista Cumplimiento de Convenio Actor</label>
+            </value>
+            <value>
+                <fullName>7Z - Solicita Ejecución Convenio</fullName>
+                <default>false</default>
+                <label>7Z - Solicita Ejecución Convenio</label>
+            </value>
+            <value>
+                <fullName>8Z - Decreta Ejecución Convenio</fullName>
+                <default>false</default>
+                <label>8Z - Decreta Ejecución Convenio</label>
+            </value>
+            <value>
+                <fullName>7Q - Ordenamiento para Rematar Bienes</fullName>
+                <default>false</default>
+                <label>7Q - Ordenamiento para Rematar Bienes</label>
+            </value>
+            <value>
+                <fullName>8Q - Certificado de Gravamen (es) se Allega</fullName>
+                <default>false</default>
+                <label>8Q - Certificado de Gravamen (es) se Allega</label>
+            </value>
+            <value>
+                <fullName>9Q - Notificación de Terceros Acreedores</fullName>
+                <default>false</default>
+                <label>9Q - Notificación de Terceros Acreedores</label>
+            </value>
+            <value>
+                <fullName>0Q - Exhorto para Notificar a Terceros</fullName>
+                <default>false</default>
+                <label>0Q - Exhorto para Notificar a Terceros</label>
+            </value>
+            <value>
+                <fullName>1R - Edictos Notificación a Terceros</fullName>
+                <default>false</default>
+                <label>1R - Edictos Notificación a Terceros</label>
+            </value>
+            <value>
+                <fullName>2R - Avalúo Actora</fullName>
+                <default>false</default>
+                <label>2R - Avalúo Actora</label>
+            </value>
+            <value>
+                <fullName>3R - Avalúo Demandado</fullName>
+                <default>false</default>
+                <label>3R - Avalúo Demandado</label>
+            </value>
+            <value>
+                <fullName>4R - Avalúo Tercer Acreedor</fullName>
+                <default>false</default>
+                <label>4R - Avalúo Tercer Acreedor</label>
+            </value>
+            <value>
+                <fullName>5R - Avalúo en Rebeldía / Discordia</fullName>
+                <default>false</default>
+                <label>5R - Avalúo en Rebeldía / Discordia</label>
+            </value>
+            <value>
+                <fullName>6R - Avalúos  a la Vista</fullName>
+                <default>false</default>
+                <label>6R - Avalúos  a la Vista</label>
+            </value>
+            <value>
+                <fullName>7R - Solicita Remate</fullName>
+                <default>false</default>
+                <label>7R - Solicita Remate</label>
+            </value>
+            <value>
+                <fullName>8R - Fecha Remate</fullName>
+                <default>false</default>
+                <label>8R - Fecha Remate</label>
+            </value>
+            <value>
+                <fullName>9R - Edictos Remate</fullName>
+                <default>false</default>
+                <label>9R - Edictos Remate</label>
+            </value>
+            <value>
+                <fullName>0R - Inc. Liqui. Gastos y/o Inter / Objeción</fullName>
+                <default>false</default>
+                <label>0R - Inc. Liqui. Gastos y/o Inter / Objeción</label>
+            </value>
+            <value>
+                <fullName>1S - Se Publican Edictos Para Remate</fullName>
+                <default>false</default>
+                <label>1S - Se Publican Edictos Para Remate</label>
+            </value>
+            <value>
+                <fullName>2S - Se Adjuntan Edictos por Remate</fullName>
+                <default>false</default>
+                <label>2S - Se Adjuntan Edictos por Remate</label>
+            </value>
+            <value>
+                <fullName>3S - Se Decreta Fincamiento de Remate</fullName>
+                <default>false</default>
+                <label>3S - Se Decreta Fincamiento de Remate</label>
+            </value>
+            <value>
+                <fullName>4S - Suspende Remate, Amparo / Tercería</fullName>
+                <default>false</default>
+                <label>4S - Suspende Remate, Amparo / Tercería</label>
+            </value>
+            <value>
+                <fullName>5S - Adjudica Actora Bien(es) 1a Almoneda</fullName>
+                <default>false</default>
+                <label>5S - Adjudica Actora Bien(es) 1a Almoneda</label>
+            </value>
+            <value>
+                <fullName>6S - Adjudica Postor Bien(es) 1ª Almoneda</fullName>
+                <default>false</default>
+                <label>6S - Adjudica Postor Bien(es) 1ª Almoneda</label>
+            </value>
+            <value>
+                <fullName>7S - Adjudica Actora Bien(es) 2º Almoneda</fullName>
+                <default>false</default>
+                <label>7S - Adjudica Actora Bien(es) 2º Almoneda</label>
+            </value>
+            <value>
+                <fullName>8S - Adjudica Postor Bien(es) 2ª Almoneda</fullName>
+                <default>false</default>
+                <label>8S - Adjudica Postor Bien(es) 2ª Almoneda</label>
+            </value>
+            <value>
+                <fullName>9S - Adjudica Actora Bien(es) 3ª Almoneda</fullName>
+                <default>false</default>
+                <label>9S - Adjudica Actora Bien(es) 3ª Almoneda</label>
+            </value>
+            <value>
+                <fullName>0S - Adjudica Postor Bien(es) 3ª Almoneda</fullName>
+                <default>false</default>
+                <label>0S - Adjudica Postor Bien(es) 3ª Almoneda</label>
+            </value>
+            <value>
+                <fullName>1T - Consigna y Entrega Precio</fullName>
+                <default>false</default>
+                <label>1T - Consigna y Entrega Precio</label>
+            </value>
+            <value>
+                <fullName>2T - Liquidación de Acreedor Preferente</fullName>
+                <default>false</default>
+                <label>2T - Liquidación de Acreedor Preferente</label>
+            </value>
+            <value>
+                <fullName>3T - Solicitud Entrega Producto Remate</fullName>
+                <default>false</default>
+                <label>3T - Solicitud Entrega Producto Remate</label>
+            </value>
+            <value>
+                <fullName>4T - Se Recibe Producto de Remate</fullName>
+                <default>false</default>
+                <label>4T - Se Recibe Producto de Remate</label>
+            </value>
+            <value>
+                <fullName>5T - Prevención a Demandado Otorgue Escritura</fullName>
+                <default>false</default>
+                <label>5T - Prevención a Demandado Otorgue Escritura</label>
+            </value>
+            <value>
+                <fullName>6T - Designa Notaria / Envío</fullName>
+                <default>false</default>
+                <label>6T - Designa Notaria / Envío</label>
+            </value>
+            <value>
+                <fullName>7T - Recibe Notaria Oficio y Copias</fullName>
+                <default>false</default>
+                <label>7T - Recibe Notaria Oficio y Copias</label>
+            </value>
+            <value>
+                <fullName>8T - En Elaborac. de Escr. Rebeldía / Revisión</fullName>
+                <default>false</default>
+                <label>8T - En Elaborac. de Escr. Rebeldía / Revisión</label>
+            </value>
+            <value>
+                <fullName>9T - Escritura Rebeldía en Revisión x Juzgado</fullName>
+                <default>false</default>
+                <label>9T - Escritura Rebeldía en Revisión x Juzgado</label>
+            </value>
+            <value>
+                <fullName>0T - Escritura Firma Juez / Envía a Notaria</fullName>
+                <default>false</default>
+                <label>0T - Escritura Firma Juez / Envía a Notaria</label>
+            </value>
+            <value>
+                <fullName>1U - Escritura de Adjudicación en Registro</fullName>
+                <default>false</default>
+                <label>1U - Escritura de Adjudicación en Registro</label>
+            </value>
+            <value>
+                <fullName>2U - Escritura Adjudicación Registrada</fullName>
+                <default>false</default>
+                <label>2U - Escritura Adjudicación Registrada</label>
+            </value>
+            <value>
+                <fullName>3U - Escritura Registrada Allega al Juzgado</fullName>
+                <default>false</default>
+                <label>3U - Escritura Registrada Allega al Juzgado</label>
+            </value>
+            <value>
+                <fullName>4U - Prevención Entrega Voluntaria Inmueble</fullName>
+                <default>false</default>
+                <label>4U - Prevención Entrega Voluntaria Inmueble</label>
+            </value>
+            <value>
+                <fullName>5U - Prevención Entrega Voluntaria de Mueble</fullName>
+                <default>false</default>
+                <label>5U - Prevención Entrega Voluntaria de Mueble</label>
+            </value>
+            <value>
+                <fullName>6U - Oposición / Suspende Toma de Posesión</fullName>
+                <default>false</default>
+                <label>6U - Oposición / Suspende Toma de Posesión</label>
+            </value>
+            <value>
+                <fullName>7U -  Arresto en Trámite</fullName>
+                <default>false</default>
+                <label>7U -  Arresto en Trámite</label>
+            </value>
+            <value>
+                <fullName>8U -  Multa en Trámite</fullName>
+                <default>false</default>
+                <label>8U -  Multa en Trámite</label>
+            </value>
+            <value>
+                <fullName>9U -  Fuerza Pública en Trámite</fullName>
+                <default>false</default>
+                <label>9U -  Fuerza Pública en Trámite</label>
+            </value>
+            <value>
+                <fullName>0U -  Fuerza Pública Ejecutada</fullName>
+                <default>false</default>
+                <label>0U -  Fuerza Pública Ejecutada</label>
+            </value>
+            <value>
+                <fullName>1V - Expedición de Factura de Adjudicación</fullName>
+                <default>false</default>
+                <label>1V - Expedición de Factura de Adjudicación</label>
+            </value>
+            <value>
+                <fullName>2V - Prevención de Otorgamiento de Factura</fullName>
+                <default>false</default>
+                <label>2V - Prevención de Otorgamiento de Factura</label>
+            </value>
+            <value>
+                <fullName>3V - Firma de Factura Judicial en Rebeldía</fullName>
+                <default>false</default>
+                <label>3V - Firma de Factura Judicial en Rebeldía</label>
+            </value>
+            <value>
+                <fullName>4V - Entrega de Factura</fullName>
+                <default>false</default>
+                <label>4V - Entrega de Factura</label>
+            </value>
+            <value>
+                <fullName>5V - Se Admite Incidente</fullName>
+                <default>false</default>
+                <label>5V - Se Admite Incidente</label>
+            </value>
+            <value>
+                <fullName>6V - Se Notifica Incidente a la Contraparte</fullName>
+                <default>false</default>
+                <label>6V - Se Notifica Incidente a la Contraparte</label>
+            </value>
+            <value>
+                <fullName>7V - Contestación de Incidente</fullName>
+                <default>false</default>
+                <label>7V - Contestación de Incidente</label>
+            </value>
+            <value>
+                <fullName>8V - Deshago de Pruebas del Incidente</fullName>
+                <default>false</default>
+                <label>8V - Deshago de Pruebas del Incidente</label>
+            </value>
+            <value>
+                <fullName>9V - Se Cita para Sentencia Interlocutoria</fullName>
+                <default>false</default>
+                <label>9V - Se Cita para Sentencia Interlocutoria</label>
+            </value>
+            <value>
+                <fullName>0V - Se Dicta Sentencia Interlocutoria</fullName>
+                <default>false</default>
+                <label>0V - Se Dicta Sentencia Interlocutoria</label>
+            </value>
+            <value>
+                <fullName>1W - Se Declara la Procedencia del Incidente</fullName>
+                <default>false</default>
+                <label>1W - Se Declara la Procedencia del Incidente</label>
+            </value>
+            <value>
+                <fullName>2W - Se Declara Improcedente el Incidente</fullName>
+                <default>false</default>
+                <label>2W - Se Declara Improcedente el Incidente</label>
+            </value>
+            <value>
+                <fullName>3W - Apelación Sentencia Interlocutoria</fullName>
+                <default>false</default>
+                <label>3W - Apelación Sentencia Interlocutoria</label>
+            </value>
+            <value>
+                <fullName>4W - Radicacion Apelación Interlocutoria</fullName>
+                <default>false</default>
+                <label>4W - Radicacion Apelación Interlocutoria</label>
+            </value>
+            <value>
+                <fullName>5W - Sentencia Apelación Sobre Interlocutoria</fullName>
+                <default>false</default>
+                <label>5W - Sentencia Apelación Sobre Interlocutoria</label>
+            </value>
+            <value>
+                <fullName>6W - Se Confirma Sentencia Interlocutoria</fullName>
+                <default>false</default>
+                <label>6W - Se Confirma Sentencia Interlocutoria</label>
+            </value>
+            <value>
+                <fullName>7W - Se Modifica la Sentencia Interlocutoria</fullName>
+                <default>false</default>
+                <label>7W - Se Modifica la Sentencia Interlocutoria</label>
+            </value>
+            <value>
+                <fullName>8W - Admisión de Tercería</fullName>
+                <default>false</default>
+                <label>8W - Admisión de Tercería</label>
+            </value>
+            <value>
+                <fullName>9W - Emplazamiento de la Tercería</fullName>
+                <default>false</default>
+                <label>9W - Emplazamiento de la Tercería</label>
+            </value>
+            <value>
+                <fullName>0W - Contestación de la Tercería</fullName>
+                <default>false</default>
+                <label>0W - Contestación de la Tercería</label>
+            </value>
+            <value>
+                <fullName>1X - Deshago de Pruebas de Tercería</fullName>
+                <default>false</default>
+                <label>1X - Deshago de Pruebas de Tercería</label>
+            </value>
+            <value>
+                <fullName>2X - Se Cita Para Sentencia de Tercería</fullName>
+                <default>false</default>
+                <label>2X - Se Cita Para Sentencia de Tercería</label>
+            </value>
+            <value>
+                <fullName>3X - Se Dicta Sentencia de la Tercería</fullName>
+                <default>false</default>
+                <label>3X - Se Dicta Sentencia de la Tercería</label>
+            </value>
+            <value>
+                <fullName>4X - Se Declara Procedente Tercería</fullName>
+                <default>false</default>
+                <label>4X - Se Declara Procedente Tercería</label>
+            </value>
+            <value>
+                <fullName>5X - Se Declara Improcedente Tercería</fullName>
+                <default>false</default>
+                <label>5X - Se Declara Improcedente Tercería</label>
+            </value>
+            <value>
+                <fullName>6X - Apelación Sentencia Tercería</fullName>
+                <default>false</default>
+                <label>6X - Apelación Sentencia Tercería</label>
+            </value>
+            <value>
+                <fullName>7X - Radicacion Apelación Tercería</fullName>
+                <default>false</default>
+                <label>7X - Radicacion Apelación Tercería</label>
+            </value>
+            <value>
+                <fullName>8X - Sentencia Apelación Sobre Tercería</fullName>
+                <default>false</default>
+                <label>8X - Sentencia Apelación Sobre Tercería</label>
+            </value>
+            <value>
+                <fullName>9X - Se Confirma Sentencia Tercería</fullName>
+                <default>false</default>
+                <label>9X - Se Confirma Sentencia Tercería</label>
+            </value>
+            <value>
+                <fullName>0X - Se Modifica Sentencia Tercería</fullName>
+                <default>false</default>
+                <label>0X - Se Modifica Sentencia Tercería</label>
+            </value>
+            <value>
+                <fullName>1Y - Término Para Amparo Directo Tercería</fullName>
+                <default>false</default>
+                <label>1Y - Término Para Amparo Directo Tercería</label>
+            </value>
+            <value>
+                <fullName>2Y - Amparo Directo Dentro de Tercería</fullName>
+                <default>false</default>
+                <label>2Y - Amparo Directo Dentro de Tercería</label>
+            </value>
+            <value>
+                <fullName>3Y - Desestimiento Demanda y no de la Acción</fullName>
+                <default>false</default>
+                <label>3Y - Desestimiento Demanda y no de la Acción</label>
+            </value>
+            <value>
+                <fullName>4Y - Desestimiento Demanda y Acción (Pago)</fullName>
+                <default>false</default>
+                <label>4Y - Desestimiento Demanda y Acción (Pago)</label>
+            </value>
+            <value>
+                <fullName>5Y - Celebra Convenio Judicial</fullName>
+                <default>false</default>
+                <label>5Y - Celebra Convenio Judicial</label>
+            </value>
+            <value>
+                <fullName>6Y - Daciòn en Pago</fullName>
+                <default>false</default>
+                <label>6Y - Daciòn en Pago</label>
+            </value>
+            <value>
+                <fullName>7Y - Dictamen de Crédito Incobrable</fullName>
+                <default>false</default>
+                <label>7Y - Dictamen de Crédito Incobrable</label>
+            </value>
+            <value>
+                <fullName>8Y - Caducidad de la Instancia</fullName>
+                <default>false</default>
+                <label>8Y - Caducidad de la Instancia</label>
+            </value>
+            <value>
+                <fullName>9Y - Cesión de Derechos a Terceros</fullName>
+                <default>false</default>
+                <label>9Y - Cesión de Derechos a Terceros</label>
+            </value>
+            <value>
+                <fullName>1Z - Fecha Reasignación para Eecución</fullName>
+                <default>false</default>
+                <label>1Z - Fecha Reasignación para Eecución</label>
+            </value>
+            <value>
+                <fullName>1AA - Dictaminado por abogado externo</fullName>
+                <default>false</default>
+                <label>1AA - Dictaminado por abogado externo</label>
+            </value>
+            <value>
+                <fullName>2AA - Revisado y Autorizado por CRC</fullName>
+                <default>false</default>
+                <label>2AA - Revisado y Autorizado por CRC</label>
+            </value>
+            <value>
+                <fullName>3AA - Dictamen elaborado</fullName>
+                <default>false</default>
+                <label>3AA - Dictamen elaborado</label>
+            </value>
+            <value>
+                <fullName>4AA - Para cierre de juicio</fullName>
+                <default>false</default>
+                <label>4AA - Para cierre de juicio</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Remate de Bienes</controllingFieldValue>
+            <valueName>7Q - Ordenamiento para Rematar Bienes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Remate de Bienes</controllingFieldValue>
+            <valueName>8Q - Certificado de Gravamen (es) se Allega</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Remate de Bienes</controllingFieldValue>
+            <valueName>9Q - Notificación de Terceros Acreedores</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Remate de Bienes</controllingFieldValue>
+            <valueName>0Q - Exhorto para Notificar a Terceros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Remate de Bienes</controllingFieldValue>
+            <valueName>1R - Edictos Notificación a Terceros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Remate de Bienes</controllingFieldValue>
+            <valueName>2R - Avalúo Actora</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Remate de Bienes</controllingFieldValue>
+            <valueName>3R - Avalúo Demandado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Remate de Bienes</controllingFieldValue>
+            <valueName>4R - Avalúo Tercer Acreedor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Remate de Bienes</controllingFieldValue>
+            <valueName>5R - Avalúo en Rebeldía / Discordia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Remate de Bienes</controllingFieldValue>
+            <valueName>6R - Avalúos  a la Vista</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Remate de Bienes</controllingFieldValue>
+            <valueName>7R - Solicita Remate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Remate de Bienes</controllingFieldValue>
+            <valueName>8R - Fecha Remate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Remate de Bienes</controllingFieldValue>
+            <valueName>9R - Edictos Remate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Remate de Bienes</controllingFieldValue>
+            <valueName>0R - Inc. Liqui. Gastos y/o Inter / Objeción</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Remate de Bienes</controllingFieldValue>
+            <valueName>1S - Se Publican Edictos Para Remate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Remate de Bienes</controllingFieldValue>
+            <valueName>2S - Se Adjuntan Edictos por Remate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Audiencia de Remate</controllingFieldValue>
+            <valueName>3S - Se Decreta Fincamiento de Remate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Audiencia de Remate</controllingFieldValue>
+            <valueName>4S - Suspende Remate, Amparo / Tercería</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Audiencia de Remate</controllingFieldValue>
+            <valueName>5S - Adjudica Actora Bien(es) 1a Almoneda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Audiencia de Remate</controllingFieldValue>
+            <valueName>6S - Adjudica Postor Bien(es) 1ª Almoneda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Audiencia de Remate</controllingFieldValue>
+            <valueName>7S - Adjudica Actora Bien(es) 2º Almoneda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Audiencia de Remate</controllingFieldValue>
+            <valueName>8S - Adjudica Postor Bien(es) 2ª Almoneda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Audiencia de Remate</controllingFieldValue>
+            <valueName>9S - Adjudica Actora Bien(es) 3ª Almoneda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Audiencia de Remate</controllingFieldValue>
+            <valueName>0S - Adjudica Postor Bien(es) 3ª Almoneda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Audiencia de Remate</controllingFieldValue>
+            <valueName>1T - Consigna y Entrega Precio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Audiencia de Remate</controllingFieldValue>
+            <valueName>2T - Liquidación de Acreedor Preferente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Audiencia de Remate</controllingFieldValue>
+            <valueName>3T - Solicitud Entrega Producto Remate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Audiencia de Remate</controllingFieldValue>
+            <valueName>4T - Se Recibe Producto de Remate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escrituración en Trámite</controllingFieldValue>
+            <valueName>5T - Prevención a Demandado Otorgue Escritura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escrituración en Trámite</controllingFieldValue>
+            <valueName>6T - Designa Notaria / Envío</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escrituración en Trámite</controllingFieldValue>
+            <valueName>7T - Recibe Notaria Oficio y Copias</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escrituración en Trámite</controllingFieldValue>
+            <valueName>8T - En Elaborac. de Escr. Rebeldía / Revisión</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escrituración en Trámite</controllingFieldValue>
+            <valueName>9T - Escritura Rebeldía en Revisión x Juzgado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escrituración en Trámite</controllingFieldValue>
+            <valueName>0T - Escritura Firma Juez / Envía a Notaria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escrituración en Trámite</controllingFieldValue>
+            <valueName>1U - Escritura de Adjudicación en Registro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escrituración en Trámite</controllingFieldValue>
+            <valueName>2U - Escritura Adjudicación Registrada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Escrituración en Trámite</controllingFieldValue>
+            <valueName>3U - Escritura Registrada Allega al Juzgado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Toma posesión bien adjudicado y/o arrendado</controllingFieldValue>
+            <valueName>4U - Prevención Entrega Voluntaria Inmueble</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Toma posesión bien adjudicado y/o arrendado</controllingFieldValue>
+            <valueName>5U - Prevención Entrega Voluntaria de Mueble</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Toma posesión bien adjudicado y/o arrendado</controllingFieldValue>
+            <valueName>6U - Oposición / Suspende Toma de Posesión</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Toma posesión bien adjudicado y/o arrendado</controllingFieldValue>
+            <valueName>7U -  Arresto en Trámite</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Toma posesión bien adjudicado y/o arrendado</controllingFieldValue>
+            <valueName>8U -  Multa en Trámite</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Toma posesión bien adjudicado y/o arrendado</controllingFieldValue>
+            <valueName>9U -  Fuerza Pública en Trámite</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Toma posesión bien adjudicado y/o arrendado</controllingFieldValue>
+            <valueName>0U -  Fuerza Pública Ejecutada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Toma posesión bien adjudicado y/o arrendado</controllingFieldValue>
+            <valueName>1V - Expedición de Factura de Adjudicación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Toma posesión bien adjudicado y/o arrendado</controllingFieldValue>
+            <valueName>2V - Prevención de Otorgamiento de Factura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Toma posesión bien adjudicado y/o arrendado</controllingFieldValue>
+            <valueName>3V - Firma de Factura Judicial en Rebeldía</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Toma posesión bien adjudicado y/o arrendado</controllingFieldValue>
+            <valueName>4V - Entrega de Factura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidente / Tercería</controllingFieldValue>
+            <valueName>5V - Se Admite Incidente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidente / Tercería</controllingFieldValue>
+            <valueName>6V - Se Notifica Incidente a la Contraparte</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidente / Tercería</controllingFieldValue>
+            <valueName>7V - Contestación de Incidente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidente / Tercería</controllingFieldValue>
+            <valueName>8V - Deshago de Pruebas del Incidente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidente / Tercería</controllingFieldValue>
+            <valueName>9V - Se Cita para Sentencia Interlocutoria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidente / Tercería</controllingFieldValue>
+            <valueName>0V - Se Dicta Sentencia Interlocutoria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidente / Tercería</controllingFieldValue>
+            <valueName>1W - Se Declara la Procedencia del Incidente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidente / Tercería</controllingFieldValue>
+            <valueName>2W - Se Declara Improcedente el Incidente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidente / Tercería</controllingFieldValue>
+            <valueName>3W - Apelación Sentencia Interlocutoria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidente / Tercería</controllingFieldValue>
+            <valueName>4W - Radicacion Apelación Interlocutoria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidente / Tercería</controllingFieldValue>
+            <valueName>5W - Sentencia Apelación Sobre Interlocutoria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidente / Tercería</controllingFieldValue>
+            <valueName>6W - Se Confirma Sentencia Interlocutoria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidente / Tercería</controllingFieldValue>
+            <valueName>7W - Se Modifica la Sentencia Interlocutoria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidente / Tercería</controllingFieldValue>
+            <valueName>8W - Admisión de Tercería</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidente / Tercería</controllingFieldValue>
+            <valueName>9W - Emplazamiento de la Tercería</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidente / Tercería</controllingFieldValue>
+            <valueName>0W - Contestación de la Tercería</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidente / Tercería</controllingFieldValue>
+            <valueName>1X - Deshago de Pruebas de Tercería</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidente / Tercería</controllingFieldValue>
+            <valueName>2X - Se Cita Para Sentencia de Tercería</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidente / Tercería</controllingFieldValue>
+            <valueName>3X - Se Dicta Sentencia de la Tercería</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidente / Tercería</controllingFieldValue>
+            <valueName>4X - Se Declara Procedente Tercería</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidente / Tercería</controllingFieldValue>
+            <valueName>5X - Se Declara Improcedente Tercería</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidente / Tercería</controllingFieldValue>
+            <valueName>6X - Apelación Sentencia Tercería</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidente / Tercería</controllingFieldValue>
+            <valueName>7X - Radicacion Apelación Tercería</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidente / Tercería</controllingFieldValue>
+            <valueName>8X - Sentencia Apelación Sobre Tercería</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidente / Tercería</controllingFieldValue>
+            <valueName>9X - Se Confirma Sentencia Tercería</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidente / Tercería</controllingFieldValue>
+            <valueName>0X - Se Modifica Sentencia Tercería</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidente / Tercería</controllingFieldValue>
+            <valueName>1Y - Término Para Amparo Directo Tercería</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incidente / Tercería</controllingFieldValue>
+            <valueName>2Y - Amparo Directo Dentro de Tercería</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cierre de Juicio</controllingFieldValue>
+            <valueName>3Y - Desestimiento Demanda y no de la Acción</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cierre de Juicio</controllingFieldValue>
+            <valueName>4Y - Desestimiento Demanda y Acción (Pago)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cierre de Juicio</controllingFieldValue>
+            <valueName>5Y - Celebra Convenio Judicial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cierre de Juicio</controllingFieldValue>
+            <valueName>6Y - Daciòn en Pago</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cierre de Juicio</controllingFieldValue>
+            <valueName>7Y - Dictamen de Crédito Incobrable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cierre de Juicio</controllingFieldValue>
+            <valueName>8Y - Caducidad de la Instancia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cierre de Juicio</controllingFieldValue>
+            <valueName>9Y - Cesión de Derechos a Terceros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demanda</controllingFieldValue>
+            <valueName>10 - Asignación a Externo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demanda</controllingFieldValue>
+            <valueName>AD - Rechazo de la demanda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demanda</controllingFieldValue>
+            <valueName>20 - Aclaración de la demanda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demanda</controllingFieldValue>
+            <valueName>4A - Prevención para admisión de la demanda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demanda</controllingFieldValue>
+            <valueName>5A - Desahogo Prev. para admisión de demanda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demanda</controllingFieldValue>
+            <valueName>6A - Pendiente radicación de la demanda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demanda</controllingFieldValue>
+            <valueName>7A - Incompetencia del Juez</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demanda</controllingFieldValue>
+            <valueName>8A - Demanda Admitida</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demanda</controllingFieldValue>
+            <valueName>9A - Desechamiento de la  de la demanda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Notificación y emplazamiento personal en trámite</controllingFieldValue>
+            <valueName>0A - Instructivo en Elaboración</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Notificación y emplazamiento personal en trámite</controllingFieldValue>
+            <valueName>1B - Despecho / Exhorto Elabora y Presenta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Notificación y emplazamiento personal en trámite</controllingFieldValue>
+            <valueName>2B - Despacho / Exhorto Dilig. - Devolución</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Notificación y emplazamiento personal en trámite</controllingFieldValue>
+            <valueName>3B - Desig. Actuario / Not. Encarga Actuario</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Notificación y emplazamiento personal en trámite</controllingFieldValue>
+            <valueName>4B - Cita para Realizar Emplazamiento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Notificación y emplazamiento personal en trámite</controllingFieldValue>
+            <valueName>5B - Diligencia de Emplazamiento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Notificación y emplazamiento personal en trámite</controllingFieldValue>
+            <valueName>6B - Diligencia no Realizada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Notificación y emplazamiento personal en trámite</controllingFieldValue>
+            <valueName>7B - DNR por Inasistencia de Funcionario</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Notificación y emplazamiento personal en trámite</controllingFieldValue>
+            <valueName>8B - DNR por no Encontrarse Persona Alguna</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Notificación y emplazamiento personal en trámite</controllingFieldValue>
+            <valueName>9B - DNR por no ser Domicilio del Demandado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Notificación y emplazamiento personal en trámite</controllingFieldValue>
+            <valueName>0B - DNR por haber solo Menores de Edad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Notificación y emplazamiento personal en trámite</controllingFieldValue>
+            <valueName>30 - DNR por Negarse a Recibir Notificación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Notificación y emplazamiento personal en trámite</controllingFieldValue>
+            <valueName>40 - Emplazamiento Parcial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Notificación y emplazamiento personal en trámite</controllingFieldValue>
+            <valueName>3C - Autoriza Días/Horas Inhábil x Emplazar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Notificación y emplazamiento personal en trámite</controllingFieldValue>
+            <valueName>4C - Se Señala Nuevo Domicilio para Emplazar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Notificación y emplazamiento personal en trámite</controllingFieldValue>
+            <valueName>5C - Notificación y Emplazamiento Efectuado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Deudor y localizado en emplazamiento</controllingFieldValue>
+            <valueName>6C - Solicita Pesquisas Autoridades</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Deudor y localizado en emplazamiento</controllingFieldValue>
+            <valueName>7C - Obtención de Oficios x Pesquisas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Deudor y localizado en emplazamiento</controllingFieldValue>
+            <valueName>8C - Presenta Oficios Pesquisas/se Razonan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Deudor y localizado en emplazamiento</controllingFieldValue>
+            <valueName>9C - Respuesta a Oficio de Localización</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Deudor y localizado en emplazamiento</controllingFieldValue>
+            <valueName>0C - Ilocalizada No Emplazada / No Litis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not. y emplazan por edictos en tramite</controllingFieldValue>
+            <valueName>1D - Ofi. Completos - Sol. Emplazar Edictos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not. y emplazan por edictos en tramite</controllingFieldValue>
+            <valueName>2D - Autoriza Empla. Edictos - Solicita Gastos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not. y emplazan por edictos en tramite</controllingFieldValue>
+            <valueName>3D - Elaboración de Edictos x Emplazamiento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not. y emplazan por edictos en tramite</controllingFieldValue>
+            <valueName>4D - Publicación de Edictos de Emplazamiento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not. y emplazan por edictos en tramite</controllingFieldValue>
+            <valueName>5D - Presenta Edictos Publicados</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not. y emplazan por edictos en tramite</controllingFieldValue>
+            <valueName>6D - Not. y Emplazamiento x Edictos Efectuado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contestación a la demanda</controllingFieldValue>
+            <valueName>7D - Demandado Contesta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contestación a la demanda</controllingFieldValue>
+            <valueName>8D - Demandado No Contesta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contestación a la demanda</controllingFieldValue>
+            <valueName>9D - Se acusa Rebeldía</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contestación a la demanda</controllingFieldValue>
+            <valueName>0D - Contestan Alguno (s) del (os) Demandado (s)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contestación a la demanda</controllingFieldValue>
+            <valueName>50 -  Excepciones de la Demanda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contestación a la demanda</controllingFieldValue>
+            <valueName>2E - Falta de Personalidad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contestación a la demanda</controllingFieldValue>
+            <valueName>3E - Incompetencia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contestación a la demanda</controllingFieldValue>
+            <valueName>4E - Error de la Vía</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contestación a la demanda</controllingFieldValue>
+            <valueName>5E - Certificación Contable Deficiente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contestación a la demanda</controllingFieldValue>
+            <valueName>6E - Crédito No Dispuesto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contestación a la demanda</controllingFieldValue>
+            <valueName>7E - Negativa Suscripción Documentos Base</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contestación a la demanda</controllingFieldValue>
+            <valueName>8E - Pago</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contestación a la demanda</controllingFieldValue>
+            <valueName>9E - Novaciòn</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contestación a la demanda</controllingFieldValue>
+            <valueName>0E - Espera</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contestación a la demanda</controllingFieldValue>
+            <valueName>1F - Litispendencia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contestación a la demanda</controllingFieldValue>
+            <valueName>2F - Conexidad de la Causa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contestación a la demanda</controllingFieldValue>
+            <valueName>3F - División y Excusiòn</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contestación a la demanda</controllingFieldValue>
+            <valueName>4F - Otras Especificar ___________</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contestación a la demanda</controllingFieldValue>
+            <valueName>5F - Escrito de Replica</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contestación a la demanda</controllingFieldValue>
+            <valueName>6F - La Parte Demandad No Contesta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contestación a la demanda</controllingFieldValue>
+            <valueName>7F - La Demandada Se Allana</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contestación a la demanda</controllingFieldValue>
+            <valueName>8F - Se Ordena Vista a la Contestación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contestación a la demanda</controllingFieldValue>
+            <valueName>9F - Se Desahoga Vista a la Contestación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Embargo antes de Sentencia</controllingFieldValue>
+            <valueName>0F - Señala para Embargo (Antes de Sentencia)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Embargo antes de Sentencia</controllingFieldValue>
+            <valueName>1G - Inscripción Embargo Antes de Sentencia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Embargo antes de Sentencia</controllingFieldValue>
+            <valueName>2G - Previene Entrega Volunt. Antes de Sentencia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Embargo antes de Sentencia</controllingFieldValue>
+            <valueName>3G - Fuerza Pública Antes de Sentencia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Embargo antes de Sentencia</controllingFieldValue>
+            <valueName>4G - Cateo / Fuerza Pública Antes de Sentencia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Embargo antes de Sentencia</controllingFieldValue>
+            <valueName>5G - Multa No Entrega Mueble Antes Sentencia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Embargo antes de Sentencia</controllingFieldValue>
+            <valueName>6G - Arresto No Entrega Mueble Antes Sentencia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Embargo antes de Sentencia</controllingFieldValue>
+            <valueName>7G - Ejecución de Arresto Antes de Sentencia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Embargo antes de Sentencia</controllingFieldValue>
+            <valueName>8G - Posesión Bien Embargado Antes Sentencia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Embargo antes de Sentencia</controllingFieldValue>
+            <valueName>9G - Intervención con Cargo a la Caja</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Embargo antes de Sentencia</controllingFieldValue>
+            <valueName>0G - Designación y Aceptación de ICC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Embargo antes de Sentencia</controllingFieldValue>
+            <valueName>1H - Prevención Entrega Voluntaria de la Caja</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Embargo antes de Sentencia</controllingFieldValue>
+            <valueName>2H - Autorización de Fuerza Pública ICC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Embargo antes de Sentencia</controllingFieldValue>
+            <valueName>3H - Autoriza. de Cateo y Fuerza Pública ICC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Embargo antes de Sentencia</controllingFieldValue>
+            <valueName>4H - Multa por No Entregar Bien Mueble ICC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Embargo antes de Sentencia</controllingFieldValue>
+            <valueName>5H - Arresto por No Entregar Bien Mueble ICC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Embargo antes de Sentencia</controllingFieldValue>
+            <valueName>6H - Ejecución de Arresto ICC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Embargo antes de Sentencia</controllingFieldValue>
+            <valueName>7H - Toma de Posesión de Bien Embargado ICC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Embargo antes de Sentencia</controllingFieldValue>
+            <valueName>8H - Descripción, Ubicación y Responsable ICC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Embargo antes de Sentencia</controllingFieldValue>
+            <valueName>9H - Embargo Cuentas Bancarias</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pruebas</controllingFieldValue>
+            <valueName>0H - Se Solicita la Apertura a Pruebas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pruebas</controllingFieldValue>
+            <valueName>61 - Término Común para Ofrecer Pruebas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pruebas</controllingFieldValue>
+            <valueName>62 - Presentación de Pruebas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pruebas</controllingFieldValue>
+            <valueName>63 - Calificación de Pruebas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pruebas</controllingFieldValue>
+            <valueName>64 - Admisión de Pruebas de la Actora</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pruebas</controllingFieldValue>
+            <valueName>65 - Desechan Pruebas de la Actora</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pruebas</controllingFieldValue>
+            <valueName>66 - Admisión de Pruebas de la Demandada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pruebas</controllingFieldValue>
+            <valueName>67 - Desechan Pruebas de la Demandada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pruebas</controllingFieldValue>
+            <valueName>68 - Fecha para Desahogar Testimonial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pruebas</controllingFieldValue>
+            <valueName>69 - Fecha para Desahogar Confesional</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pruebas</controllingFieldValue>
+            <valueName>70 - Actora Designa Perito</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pruebas</controllingFieldValue>
+            <valueName>1J - Dictamen Pericial de la Actora</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pruebas</controllingFieldValue>
+            <valueName>2J - Pericial Tercero en Discordia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pruebas</controllingFieldValue>
+            <valueName>3J - Prueba Pericial Desierta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pruebas</controllingFieldValue>
+            <valueName>4J - Pericial Tercero en Discordia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pruebas</controllingFieldValue>
+            <valueName>5J - Prueba Pericial Desierta (2a)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pruebas</controllingFieldValue>
+            <valueName>6J - Prueba Pericial Desierta (3a)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pruebas</controllingFieldValue>
+            <valueName>7J - Inspección Judicial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pruebas</controllingFieldValue>
+            <valueName>8J - Se Admite Inspección y se Fija Fecha</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pruebas</controllingFieldValue>
+            <valueName>9J - Se Desahoga Inspección</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pruebas</controllingFieldValue>
+            <valueName>0J - Inspección se Materializa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pruebas</controllingFieldValue>
+            <valueName>1K - Concluye Período Probatorio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pruebas</controllingFieldValue>
+            <valueName>2K - Apertura Alegatos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pruebas</controllingFieldValue>
+            <valueName>3K - Alegatos Presenta la Actora</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pruebas</controllingFieldValue>
+            <valueName>4K - Alegatos Presenta la Demandada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>5K - Se Solicita se Dicte Sentencia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>6K - En Proyecto de Sentencia Definitiva</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>7K - Sentencia Definitiva a Favor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>8K - Sentencia Definitiva Parcial Favorable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>9K - Sentencia Definitiva Improcedente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>0K - Sentencia Notificada a la Demandada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>1L - Notificación de Sentencia a la Actora</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>2L - Expira Término para Apelación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>3L - Recurso de Aclaración de Sentencia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>4L - Admisión de Recurso y Ordena Vista</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>5L - Resolución de Aclaración Definitiva de Sentencia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>6L - Se Admite Apelación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>7L - Se tiene Desahogada Vista de Apelación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>8L - Envío de Autos para Trámite de Apelación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>9L - Radicacion de Apelación en Sala</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>0L - Se Ordena Dictar Sentencia de Apelación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>1M - Se Dicta Sentencia de Apelación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>2M - Sentencia de Apelación Confirma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>3M - Apelación Modifica Acciones de la Actora</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>4M - Apelación Revoca Acciones de la Actora</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>5M - Sentencia Apelación Favorable a Actora</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>6M - Notificación Actora Sentencia Apelación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>7M . Notificación Reo Sentencia Apelación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>8M - Concluye Plazo para Amparo Directo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>9M - Amparo Directo en Sala</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>0M - Admisión Amparo Directo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>1N - Notificación a 3º de Amparo Directo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>2N - Suspensión Acto Reclamado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>3N - Niega Suspensión</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>4N - Quejoso Otorga Cauciòn</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>5N - Remisión de Amparo Directo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>6N - Colegiado Recibe Amparo Directo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>7N - Amparo Directo Desechado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>8N - Reclamación Amparo Directo Desechado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>9N - Confirmación Desechamiento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>0N - Revocación y Admisión Amparo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>2Ñ - En Proyecto de Sentencia Amparo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>3Ñ - Votación Colegiado Proyecto Sentencia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>4Ñ - Aplazamiento de Sentencia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>5Ñ - Sentencia de Amparo Directo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>6Ñ - Negación de Amparo Directo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>7Ñ - Amparo Directo Procedente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>8Ñ - Amparo Revoca Sentencia 2ª Instancia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>9Ñ - Cumple Ejecutoria Amparo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>0Ñ - Apelación Confirma Definitiva</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>1O - Apelación Modifica Parcial 1ª Instancia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>2O - Apelación Revoca Negativa Actora</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>3O - Apelación Revoca Favorable Actora</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Solicitud se dicte sentencia definitiva</controllingFieldValue>
+            <valueName>4O - Remisión Expediente Juzgado Origen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ejecución de Sentencia</controllingFieldValue>
+            <valueName>5O - Notificación Llegada de Autos a Juzgado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ejecución de Sentencia</controllingFieldValue>
+            <valueName>6O - Acuerdo y Not. de Sentencia Ejecutoria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ejecución de Sentencia</controllingFieldValue>
+            <valueName>7O - Señala para Embargo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ejecución de Sentencia</controllingFieldValue>
+            <valueName>8O - Inscripción de Embargo (s) se Realiza</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ejecución de Sentencia</controllingFieldValue>
+            <valueName>9O - Prevención Entrega Voluntaria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ejecución de Sentencia</controllingFieldValue>
+            <valueName>0O- Autorización de Fuerza Pública</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ejecución de Sentencia</controllingFieldValue>
+            <valueName>1P - Autorización de Cateo y Fuerza Pública</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ejecución de Sentencia</controllingFieldValue>
+            <valueName>2P - Multa por No Entregar Bien Mueble</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ejecución de Sentencia</controllingFieldValue>
+            <valueName>3P - Arresto por No Entregar Bien Mueble</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ejecución de Sentencia</controllingFieldValue>
+            <valueName>4P -  Ejecución  de Arresto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ejecución de Sentencia</controllingFieldValue>
+            <valueName>5P - Toma de Posesión de Bien Embargado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ejecución de Sentencia</controllingFieldValue>
+            <valueName>6P - Designación y Aceptación de ICC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ejecución de Sentencia</controllingFieldValue>
+            <valueName>7P - Prevención Entrega Voluntaria de la Caja</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ejecución de Sentencia</controllingFieldValue>
+            <valueName>8P - Autorización de Fuerza Publica ICC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ejecución de Sentencia</controllingFieldValue>
+            <valueName>9P - Autoriza Cateo y Fuerza Pública ICC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ejecución de Sentencia</controllingFieldValue>
+            <valueName>0P - Multa por No Entregar Bien Mueble ICC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ejecución de Sentencia</controllingFieldValue>
+            <valueName>1Q - Arresto por No Entregar Bien Mueble  ICC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ejecución de Sentencia</controllingFieldValue>
+            <valueName>2Q - Ejecución de arresto ICC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ejecución de Sentencia</controllingFieldValue>
+            <valueName>3Q - Toma de Posesión de Bien Embargado ICC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ejecución de Sentencia</controllingFieldValue>
+            <valueName>4Q - Descripción, Ubicación y Responsable ICC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ejecución de Sentencia</controllingFieldValue>
+            <valueName>5Q - Embargo Cuentas Bancarias</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ejecución de Sentencia</controllingFieldValue>
+            <valueName>6Q - Recibe Recurso de Cuentas Bancarias</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ejecución de Convenio</controllingFieldValue>
+            <valueName>3Z - Inscripción Convenio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ejecución de Convenio</controllingFieldValue>
+            <valueName>4Z - Prevención Cumplimiento Convenio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ejecución de Convenio</controllingFieldValue>
+            <valueName>5Z - Desahogo Cumplimiento Convenio Demandado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ejecución de Convenio</controllingFieldValue>
+            <valueName>6Z - Deshago Vista Cumplimiento de Convenio Actor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ejecución de Convenio</controllingFieldValue>
+            <valueName>7Z - Solicita Ejecución Convenio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ejecución de Convenio</controllingFieldValue>
+            <valueName>8Z - Decreta Ejecución Convenio</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

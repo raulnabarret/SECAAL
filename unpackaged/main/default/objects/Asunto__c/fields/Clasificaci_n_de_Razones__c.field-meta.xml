@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clasificaci_n_de_Razones__c</fullName>
+    <externalId>false</externalId>
+    <label>Clasificación de Razones</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Razones_del_Dictamen__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Reporto inmuebles que se encontraban gravados desde la solicitud del crédito</fullName>
+                <default>false</default>
+                <label>Reporto inmuebles que se encontraban gravados desde la solicitud del crédito</label>
+            </value>
+            <value>
+                <fullName>Reporto inmuebles que no eran de su propiedad</fullName>
+                <default>false</default>
+                <label>Reporto inmuebles que no eran de su propiedad</label>
+            </value>
+            <value>
+                <fullName>Sin manifestación de propiedades, sin inmuebles localizados en el registro</fullName>
+                <default>false</default>
+                <label>Sin manifestación de propiedades, sin inmuebles localizados en el registro</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Sin Bienes Inmuebles o Con Bienes Inmuebles Gravados al momento de otorgar Crédito</controllingFieldValue>
+            <valueName>Reporto inmuebles que se encontraban gravados desde la solicitud del crédito</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sin Bienes Inmuebles o Con Bienes Inmuebles Gravados al momento de otorgar Crédito</controllingFieldValue>
+            <valueName>Reporto inmuebles que no eran de su propiedad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sin Bienes Inmuebles o Con Bienes Inmuebles Gravados al momento de otorgar Crédito</controllingFieldValue>
+            <valueName>Sin manifestación de propiedades, sin inmuebles localizados en el registro</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

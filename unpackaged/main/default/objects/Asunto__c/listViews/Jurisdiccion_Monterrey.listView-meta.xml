@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jurisdiccion_Monterrey</fullName>
+    <columns>NAME</columns>
+    <columns>Ciudad_en_donde_se_encuentra_el_Juzgado__c</columns>
+    <columns>Fecha_de_Ingreso__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Ciudad_en_donde_se_encuentra_el_Juzgado__c</field>
+        <operation>startsWith</operation>
+        <value>Monterrey</value>
+    </filters>
+    <label>Jurisdiccion Monterrey</label>
+</ListView>

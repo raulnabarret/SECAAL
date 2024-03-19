@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Monto_requerido_si_hay_esquema_de_salida</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(NOT(ISPICKVAL( Esquema_Salida_o_Recuperaci_n__c , '')), ISBLANK( Monto_Recuperado__c ))</errorConditionFormula>
+    <errorDisplayField>Monto_Recuperado__c</errorDisplayField>
+    <errorMessage>Monto Recuperado es requerido cuando se selecciona un Esquema de Salida.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Dictamen inicial del Expediente --></label>
+        <name>Dictamen_del_Expediente__c</name>
+        <picklistValues>
+            <masterLabel>Carente de Información</masterLabel>
+            <translation><!-- Carente de Información --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Irrecuperable</masterLabel>
+            <translation><!-- Irrecuperable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pendiente</masterLabel>
+            <translation><!-- Pendiente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recuperable</masterLabel>
+            <translation><!-- Recuperable --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

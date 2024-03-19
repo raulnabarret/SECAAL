@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Etapa Administrativa Salida --></label>
+        <name>Etapa_Administrativa_Salida__c</name>
+        <picklistValues>
+            <masterLabel>Devolución de expediente para integrarlo</masterLabel>
+            <translation><!-- Devolución de expediente para integrarlo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Devolución del asunto para castigo</masterLabel>
+            <translation><!-- Devolución del asunto para castigo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Devolución del asunto por grado prelación</masterLabel>
+            <translation><!-- Devolución del asunto por grado prelación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entrega de Bienes INM y Llaves</masterLabel>
+            <translation><!-- Entrega de Bienes INM y Llaves --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entrega de Bienes Muebles y Llaves</masterLabel>
+            <translation><!-- Entrega de Bienes Muebles y Llaves --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recepción de Bienes INM y Llaves</masterLabel>
+            <translation><!-- Recepción de Bienes INM y Llaves --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recepción de Bienes Muebles y Llaves</masterLabel>
+            <translation><!-- Recepción de Bienes Muebles y Llaves --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

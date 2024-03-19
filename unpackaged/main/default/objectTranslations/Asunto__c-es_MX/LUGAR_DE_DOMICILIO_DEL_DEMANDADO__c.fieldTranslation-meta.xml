@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- LUGAR DE DOMICILIO DEL DEMANDADO --></label>
+        <name>LUGAR_DE_DOMICILIO_DEL_DEMANDADO__c</name>
+    </CustomFieldTranslation>

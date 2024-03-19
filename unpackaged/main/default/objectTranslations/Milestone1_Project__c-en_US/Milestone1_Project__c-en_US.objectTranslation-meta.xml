@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Project</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Projects</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Project Layout</layout>
+        <sections>
+            <label><!-- Budgets --></label>
+            <section>Budgets</section>
+        </sections>
+        <sections>
+            <label><!-- Metrics: Hours &amp; Expenses (Calculated) --></label>
+            <section>Metrics: Hours &amp; Expenses (Calculated)</section>
+        </sections>
+        <sections>
+            <label><!-- Metrics: Milestone Information (Calculated) --></label>
+            <section>Metrics: Milestone Information (Calculated)</section>
+        </sections>
+        <sections>
+            <label><!-- Project Milestones Gantt View --></label>
+            <section>Project Milestones Gantt View</section>
+        </sections>
+        <sections>
+            <label><!-- Status at a Glance --></label>
+            <section>Status at a Glance</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Kickoff must be less or equal than the deadline --></errorMessage>
+        <name>Kickoff_before_deadline</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This value should be a positive number --></errorMessage>
+        <name>Total_Expense_Budget_Negative_Numbers</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This value should be a positive number --></errorMessage>
+        <name>Total_Hours_Budget_Negative_Numbers</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Export_Template --></label>
+        <name>Export_Template</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Import_Template --></label>
+        <name>Import_Template</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Update --></label>
+        <name>Update</name>
+    </webLinks>
+</CustomObjectTranslation>

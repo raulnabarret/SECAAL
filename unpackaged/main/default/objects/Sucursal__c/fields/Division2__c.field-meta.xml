@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Division2__c</fullName>
+    <externalId>false</externalId>
+    <label>Division2</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DF Centro</fullName>
+                <default>false</default>
+                <label>DF Centro</label>
+            </value>
+            <value>
+                <fullName>Hombre Camion</fullName>
+                <default>false</default>
+                <label>Hombre Camion</label>
+            </value>
+            <value>
+                <fullName>Monterrey</fullName>
+                <default>false</default>
+                <label>Monterrey</label>
+            </value>
+            <value>
+                <fullName>Nomina</fullName>
+                <default>false</default>
+                <label>Nomina</label>
+            </value>
+            <value>
+                <fullName>Noreste</fullName>
+                <default>false</default>
+                <label>Noreste</label>
+            </value>
+            <value>
+                <fullName>Noroeste</fullName>
+                <default>false</default>
+                <label>Noroeste</label>
+            </value>
+            <value>
+                <fullName>Occidente</fullName>
+                <default>false</default>
+                <label>Occidente</label>
+            </value>
+            <value>
+                <fullName>Patrimonial</fullName>
+                <default>false</default>
+                <label>Patrimonial</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

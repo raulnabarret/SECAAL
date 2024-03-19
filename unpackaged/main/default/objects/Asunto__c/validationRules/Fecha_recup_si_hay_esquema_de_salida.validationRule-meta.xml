@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fecha_recup_si_hay_esquema_de_salida</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(NOT(ISPICKVAL( Esquema_Salida_o_Recuperaci_n__c , '')), ISBLANK( Fecha_de_Recuperacion__c  ))</errorConditionFormula>
+    <errorDisplayField>Fecha_de_Recuperacion__c</errorDisplayField>
+    <errorMessage>Fecha de Recuperación es requerida cuando se selecciona un Esquema de Salida.</errorMessage>
+</ValidationRule>

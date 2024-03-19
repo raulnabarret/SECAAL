@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Asunto__c.Monto_Reclamado__c</field>
+    </columns>
+    <description>Matrix con numero de asuntos y montos reclamados por AE y Direccion y Filial</description>
+    <filter>
+        <criteriaItems>
+            <column>Asunto__c.Iniciales_de_Abogado_Externo__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>ACG,EDRG,LCG,GVL,SMM</value>
+        </criteriaItems>
+        <language>es</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>Asunto__c.Direcci_n_o_Filial__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Asunto__c.Iniciales_de_Abogado_Externo__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Matrix AE por Direccion y Filial</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Asunto__c@Asunto__c.Abogado_Externo__c</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Asunto__c.Fecha_de_Asignacion_AE__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

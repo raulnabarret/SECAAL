@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LUGAR_DE_DOMICILIO_DEL_DEMANDADO__c</fullName>
+    <description>Esta información define a los abogados corresponsales
+
+Adicionalmente sirve para saber donde hay que hacer búsqueda de bienes</description>
+    <externalId>false</externalId>
+    <label>LUGAR DE DOMICILIO DEL DEMANDADO</label>
+    <length>100</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

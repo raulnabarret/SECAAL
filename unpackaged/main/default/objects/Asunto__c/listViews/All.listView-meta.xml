@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Fecha_de_Ingreso__c</columns>
+    <columns>Acreditado__c</columns>
+    <columns>Monto_Reclamado__c</columns>
+    <columns>Sucursal__c</columns>
+    <columns>Despacho__c</columns>
+    <columns>Fecha_de_Asignacion_AE__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Fecha_de_Asignacion_AE__c</field>
+        <operation>equals</operation>
+        <value>1/27/2020</value>
+    </filters>
+    <filters>
+        <field>Despacho__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Todos</label>
+</ListView>

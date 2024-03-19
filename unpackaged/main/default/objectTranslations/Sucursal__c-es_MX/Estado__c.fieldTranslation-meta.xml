@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Estado --></label>
+        <name>Estado__c</name>
+        <picklistValues>
+            <masterLabel>Aguascalientes</masterLabel>
+            <translation><!-- Aguascalientes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baja California Norte</masterLabel>
+            <translation><!-- Baja California Norte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baja California Sur</masterLabel>
+            <translation><!-- Baja California Sur --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Campeche</masterLabel>
+            <translation><!-- Campeche --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chiapas</masterLabel>
+            <translation><!-- Chiapas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chihuahua</masterLabel>
+            <translation><!-- Chihuahua --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ciudad de Mexico</masterLabel>
+            <translation><!-- Ciudad de Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coahuila</masterLabel>
+            <translation><!-- Coahuila --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colima</masterLabel>
+            <translation><!-- Colima --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Durango</masterLabel>
+            <translation><!-- Durango --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estado de Mexico</masterLabel>
+            <translation><!-- Estado de Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guanajuato</masterLabel>
+            <translation><!-- Guanajuato --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guerrero</masterLabel>
+            <translation><!-- Guerrero --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hidalgo</masterLabel>
+            <translation><!-- Hidalgo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jalisco</masterLabel>
+            <translation><!-- Jalisco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Michoacan</masterLabel>
+            <translation><!-- Michoacan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Morelos</masterLabel>
+            <translation><!-- Morelos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nayarit</masterLabel>
+            <translation><!-- Nayarit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nuevo Leon</masterLabel>
+            <translation><!-- Nuevo Leon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oaxaca</masterLabel>
+            <translation><!-- Oaxaca --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Puebla</masterLabel>
+            <translation><!-- Puebla --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Queretaro</masterLabel>
+            <translation><!-- Queretaro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quintana Roo</masterLabel>
+            <translation><!-- Quintana Roo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Luis Potosi</masterLabel>
+            <translation><!-- San Luis Potosi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sinaloa</masterLabel>
+            <translation><!-- Sinaloa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sonora</masterLabel>
+            <translation><!-- Sonora --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tabasco</masterLabel>
+            <translation><!-- Tabasco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tamaulipas</masterLabel>
+            <translation><!-- Tamaulipas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tlaxcala</masterLabel>
+            <translation><!-- Tlaxcala --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Veracruz</masterLabel>
+            <translation><!-- Veracruz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yucatan</masterLabel>
+            <translation><!-- Yucatan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zacatecas</masterLabel>
+            <translation><!-- Zacatecas --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

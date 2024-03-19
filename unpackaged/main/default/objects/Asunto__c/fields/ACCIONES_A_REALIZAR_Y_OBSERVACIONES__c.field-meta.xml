@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACCIONES_A_REALIZAR_Y_OBSERVACIONES__c</fullName>
+    <externalId>false</externalId>
+    <label>ACCIONES A REALIZAR Y OBSERVACIONES</label>
+    <length>32716</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

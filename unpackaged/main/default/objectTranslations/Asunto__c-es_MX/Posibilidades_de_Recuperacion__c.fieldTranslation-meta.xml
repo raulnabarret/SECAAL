@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Posibilidades de Recuperacion --></label>
+        <name>Posibilidades_de_Recuperacion__c</name>
+        <picklistValues>
+            <masterLabel>Alta</masterLabel>
+            <translation><!-- Alta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baja</masterLabel>
+            <translation><!-- Baja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media</masterLabel>
+            <translation><!-- Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nula</masterLabel>
+            <translation><!-- Nula --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

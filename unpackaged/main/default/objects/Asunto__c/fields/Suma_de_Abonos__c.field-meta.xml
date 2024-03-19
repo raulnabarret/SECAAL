@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Suma_de_Abonos__c</fullName>
+    <description>Suma de todos los abonos parciales</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Suma de todos los abonos parciales</inlineHelpText>
+    <label>Suma de Abonos</label>
+    <summarizedField>Abono_en_cuenta__c.Importe__c</summarizedField>
+    <summaryForeignKey>Abono_en_cuenta__c.Asunto__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

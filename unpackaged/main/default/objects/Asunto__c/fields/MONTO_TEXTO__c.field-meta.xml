@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MONTO_TEXTO__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(CONTAINS(TEXT(MONTO__c),"."),
+ VALUE(TEXT(MONTO__c)+"0"),
+ VALUE(TEXT(MONTO__c)+".00")
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>MONTO TEXTO</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Esquema Salida o Recuperación --></label>
+        <name>Esquema_Salida_o_Recuperaci_n__c</name>
+        <picklistValues>
+            <masterLabel>Adjudicación</masterLabel>
+            <translation><!-- Adjudicación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adjudicación Parcial</masterLabel>
+            <translation><!-- Adjudicación Parcial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adjudicación a Postor</masterLabel>
+            <translation><!-- Adjudicación a Postor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Castigo</masterLabel>
+            <translation><!-- Castigo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cesión de Derechos</masterLabel>
+            <translation><!-- Cesión de Derechos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Concurso Mercantil</masterLabel>
+            <translation><!-- Concurso Mercantil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dación en Pago</masterLabel>
+            <translation><!-- Dación en Pago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ejecución de Convenio</masterLabel>
+            <translation><!-- Ejecución de Convenio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finiquito</masterLabel>
+            <translation><!-- Finiquito --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finiquito Administrativo</masterLabel>
+            <translation><!-- Finiquito Administrativo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finiquito a Plazos</masterLabel>
+            <translation><!-- Finiquito a Plazos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Litigio</masterLabel>
+            <translation><!-- Litigio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pago Parcial</masterLabel>
+            <translation><!-- Pago Parcial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reestructura</masterLabel>
+            <translation><!-- Reestructura --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regularización</masterLabel>
+            <translation><!-- Regularización --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regularización de Reestructura</masterLabel>
+            <translation><!-- Regularización de Reestructura --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remate</masterLabel>
+            <translation><!-- Remate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Toma de Posesión</masterLabel>
+            <translation><!-- Toma de Posesión --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

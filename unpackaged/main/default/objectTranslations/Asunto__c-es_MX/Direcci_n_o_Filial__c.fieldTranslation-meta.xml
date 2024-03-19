@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Dirección o Filial --></label>
+        <name>Direcci_n_o_Filial__c</name>
+        <picklistValues>
+            <masterLabel>Almacenadora</masterLabel>
+            <translation><!-- Almacenadora --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arrendadora</masterLabel>
+            <translation><!-- Arrendadora --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto Plazo</masterLabel>
+            <translation><!-- Auto Plazo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comercial</masterLabel>
+            <translation><!-- Comercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Factoraje</masterLabel>
+            <translation><!-- Factoraje --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hipotecario</masterLabel>
+            <translation><!-- Hipotecario --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hombre Camion</masterLabel>
+            <translation><!-- Hombre Camion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nomina</masterLabel>
+            <translation><!-- Nomina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seguros</masterLabel>
+            <translation><!-- Seguros --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

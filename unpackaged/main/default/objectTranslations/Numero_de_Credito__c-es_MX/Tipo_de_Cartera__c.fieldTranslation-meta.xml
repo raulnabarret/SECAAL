@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Tipo de Cartera --></label>
+        <name>Tipo_de_Cartera__c</name>
+        <picklistValues>
+            <masterLabel>Apoyo Banxico</masterLabel>
+            <translation><!-- Apoyo Banxico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Apoyo Nafin</masterLabel>
+            <translation><!-- Apoyo Nafin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pymes</masterLabel>
+            <translation><!-- Pymes --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

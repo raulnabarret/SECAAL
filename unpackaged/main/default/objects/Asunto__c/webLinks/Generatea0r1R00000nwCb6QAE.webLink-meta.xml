@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Generatea0r1R00000nwCb6QAE</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>FORMATO DEMANDA DGO AVIO</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>{!URLFOR('/apex/dfsle__gendocumentgenerator', null, [sId = Asunto__c.Id, templateId = 'a0r1R00000nwCb6QAE', recordId = Asunto__c.Id, recordName = Asunto__c.Name, title = 'FORMATO DEMANDA DGO AVIO'])}</url>
+</WebLink>

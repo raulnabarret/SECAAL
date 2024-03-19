@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Activa la creacion automatica de etapas judiciales en importe --></help>
+        <label><!-- Crear Etapas Judiciales en Importe --></label>
+        <name>Crear_Etapas_Judiciales_en_Importe__c</name>
+    </CustomFieldTranslation>

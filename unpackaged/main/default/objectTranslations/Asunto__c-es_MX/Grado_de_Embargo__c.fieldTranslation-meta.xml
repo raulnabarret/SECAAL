@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Grado de Embargo --></label>
+        <name>Grado_de_Embargo__c</name>
+        <picklistValues>
+            <masterLabel>Primero</masterLabel>
+            <translation><!-- Primero --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Segundo</masterLabel>
+            <translation><!-- Segundo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tercero</masterLabel>
+            <translation><!-- Tercero --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

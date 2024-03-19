@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- FECHA FIRMA PAGARE --></label>
+        <name>FECHA_DE_SUSCRPCION_DE_PAGARE__c</name>
+    </CustomFieldTranslation>

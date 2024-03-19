@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Esquema_de_Salida__c</fullName>
+    <description>Esquema de Salida del Abono</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Esquema de Salida del Abono</inlineHelpText>
+    <label>Esquema de Salida</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Finiquito a Plazos</fullName>
+                <default>false</default>
+                <label>Finiquito a Plazos</label>
+            </value>
+            <value>
+                <fullName>Pago Parcial</fullName>
+                <default>false</default>
+                <label>Pago Parcial</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

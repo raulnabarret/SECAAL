@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Monto_Reclamado__c</fullName>
+    <externalId>false</externalId>
+    <label>SUERTE PRINCIPAL</label>
+    <summarizedField>Numero_de_Credito__c.Monto__c</summarizedField>
+    <summaryForeignKey>Numero_de_Credito__c.Asunto__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

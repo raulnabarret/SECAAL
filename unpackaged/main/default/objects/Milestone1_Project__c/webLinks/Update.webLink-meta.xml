@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Update</fullName>
+    <availability>online</availability>
+    <description>Updates current project data</description>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Update</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>/**
+* Update project to recalculate/refresh data
+*/
+
+// Include ajax toolkit
+{!requireScript("/soap/ajax/20.0/connection.js")}
+
+// Save url
+var url = parent.location.href;
+
+// Get project
+var project = new sforce.SObject('Milestone1_Project__c');
+project.Id  = '{!Milestone1_Project__c.Id}'
+
+// Get user
+var user = sforce.connection.getUserInfo();
+
+// Update if project owner is the same as the running user
+if( user.userId.substr(0,15) == '{!Milestone1_Project__c.OwnerId}' ){
+	var result = sforce.connection.update([project]);
+	 
+	// Process result, if success refresh page
+	if( result[0].getBoolean("success") ){
+		parent.location.href = url;
+	} 
+	else {
+		log("Failed to update project: " + result[0]);
+	}
+}</url>
+</WebLink>

@@ -1,0 +1,13 @@
+<apex:page standardController="Asunto__c" extensions="AsuntosTimelineController" showHeader="false" sidebar="false" >
+
+	<apex:includeScript value="{!$Resource.ChartLoader}"/>
+	<script>
+		google.charts.load('current', {'packages':['table','timeline']});
+	</script>
+	<apex:outputPanel style="padding:5%;width:90%">
+	<c:ERGGoogleChartTimeline theChartInfo="{!timelineData}" rendered="{!timelineHasData}"/>
+	</apex:outputPanel>
+	<apex:outputPanel rendered="{!!timelineHasData}">
+		<h4>No Dates Entered Yet.</h4>
+	</apex:outputPanel>
+</apex:page>

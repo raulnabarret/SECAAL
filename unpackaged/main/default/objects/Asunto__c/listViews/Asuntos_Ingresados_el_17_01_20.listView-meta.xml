@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Asuntos_Ingresados_el_17_01_20</fullName>
+    <columns>NAME</columns>
+    <columns>Fecha_de_Ingreso__c</columns>
+    <columns>Acreditado__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Fecha_de_Ingreso__c</field>
+        <operation>equals</operation>
+        <value>1/17/2020</value>
+    </filters>
+    <label>Asuntos Ingresados el 17/01/20</label>
+</ListView>

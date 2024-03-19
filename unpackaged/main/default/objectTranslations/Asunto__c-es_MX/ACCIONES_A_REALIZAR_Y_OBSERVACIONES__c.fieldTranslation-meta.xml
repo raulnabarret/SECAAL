@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- ACCIONES A REALIZAR Y OBSERVACIONES --></label>
+        <name>ACCIONES_A_REALIZAR_Y_OBSERVACIONES__c</name>
+    </CustomFieldTranslation>

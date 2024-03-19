@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Razones del Dictamen --></label>
+        <name>Razones_del_Dictamen__c</name>
+        <picklistValues>
+            <masterLabel>Bienes Susceptibles de Embargo</masterLabel>
+            <translation><!-- Bienes Susceptibles de Embargo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Con Bienes Inmuebles Gravados al momento de otorgar Crédito</masterLabel>
+            <translation><!-- Con Bienes Inmuebles Gravados al momento de otorgar Crédito --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Con Garantías</masterLabel>
+            <translation><!-- Con Garantías --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Falta Información en Expediente</masterLabel>
+            <translation><!-- Falta Información en Expediente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insolvencia por acreedores que embargan las propiedades</masterLabel>
+            <translation><!-- Insolvencia por acreedores que embargan las propiedades --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insolvencia por garantias constituidas a favor de terceros</masterLabel>
+            <translation><!-- Insolvencia por garantias constituidas a favor de terceros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insolvencia provocada</masterLabel>
+            <translation><!-- Insolvencia provocada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A ( Con Bienes Adicionales)</masterLabel>
+            <translation><!-- N/A ( Con Bienes Adicionales) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sin Bienes Inmuebles Gravados al momento de otorgar Crédito</masterLabel>
+            <translation><!-- Sin Bienes Inmuebles Gravados al momento de otorgar Crédito --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sin Bienes Inmuebles o Con Bienes Inmuebles Gravados al momento de otorgar Crédito</masterLabel>
+            <translation><!-- Sin Bienes Inmuebles o Con Bienes Inmuebles Gravados al momento de otorgar Crédito --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

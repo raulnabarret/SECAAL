@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Etapa_Judicial__c</fullName>
+    <externalId>false</externalId>
+    <label>Etapa Judicial</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Demanda</fullName>
+                <default>false</default>
+                <label>Demanda</label>
+            </value>
+            <value>
+                <fullName>Notificación y emplazamiento personal en trámite</fullName>
+                <default>false</default>
+                <label>Notificación y emplazamiento personal en trámite</label>
+            </value>
+            <value>
+                <fullName>Deudor y localizado en emplazamiento</fullName>
+                <default>false</default>
+                <label>Deudor y localizado en emplazamiento</label>
+            </value>
+            <value>
+                <fullName>Not. y emplazan por edictos en tramite</fullName>
+                <default>false</default>
+                <label>Not. y emplazan por edictos en tramite</label>
+            </value>
+            <value>
+                <fullName>Contestación a la demanda</fullName>
+                <default>false</default>
+                <label>Contestación a la demanda</label>
+            </value>
+            <value>
+                <fullName>Embargo antes de Sentencia</fullName>
+                <default>false</default>
+                <label>Embargo antes de Sentencia</label>
+            </value>
+            <value>
+                <fullName>Pruebas</fullName>
+                <default>false</default>
+                <label>Pruebas</label>
+            </value>
+            <value>
+                <fullName>Solicitud se dicte sentencia definitiva</fullName>
+                <default>false</default>
+                <label>Solicitud se dicte sentencia definitiva</label>
+            </value>
+            <value>
+                <fullName>Ejecución de Sentencia</fullName>
+                <default>false</default>
+                <label>Ejecución de Sentencia</label>
+            </value>
+            <value>
+                <fullName>Ejecución de Convenio</fullName>
+                <default>false</default>
+                <label>Ejecución de Convenio</label>
+            </value>
+            <value>
+                <fullName>Remate de Bienes</fullName>
+                <default>false</default>
+                <label>Remate de Bienes</label>
+            </value>
+            <value>
+                <fullName>Audiencia de Remate</fullName>
+                <default>false</default>
+                <label>Audiencia de Remate</label>
+            </value>
+            <value>
+                <fullName>Escrituración en Trámite</fullName>
+                <default>false</default>
+                <label>Escrituración en Trámite</label>
+            </value>
+            <value>
+                <fullName>Toma posesión bien adjudicado y/o arrendado</fullName>
+                <default>false</default>
+                <label>Toma posesión bien adjudicado y/o arrendado</label>
+            </value>
+            <value>
+                <fullName>Incidente / Tercería</fullName>
+                <default>false</default>
+                <label>Incidente / Tercería</label>
+            </value>
+            <value>
+                <fullName>Cierre de Juicio</fullName>
+                <default>false</default>
+                <label>Cierre de Juicio</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

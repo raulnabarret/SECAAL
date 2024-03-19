@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Esquema de Salida del Abono --></help>
+        <label><!-- Esquema de Salida --></label>
+        <name>Esquema_de_Salida__c</name>
+        <picklistValues>
+            <masterLabel>Finiquito a Plazos</masterLabel>
+            <translation><!-- Finiquito a Plazos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pago Parcial</masterLabel>
+            <translation><!-- Pago Parcial --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

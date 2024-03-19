@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Problematica__c</fullName>
+    <externalId>false</externalId>
+    <label>Problematica</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Acceso Privado de Fraccionamiento</fullName>
+                <default>false</default>
+                <label>Acceso Privado de Fraccionamiento</label>
+            </value>
+            <value>
+                <fullName>Defensa del Demandado</fullName>
+                <default>false</default>
+                <label>Defensa del Demandado</label>
+            </value>
+            <value>
+                <fullName>Emplazamiento por exhorto</fullName>
+                <default>false</default>
+                <label>Emplazamiento por exhorto</label>
+            </value>
+            <value>
+                <fullName>Fallecimiento</fullName>
+                <default>false</default>
+                <label>Fallecimiento</label>
+            </value>
+            <value>
+                <fullName>Ilocalización</fullName>
+                <default>false</default>
+                <label>Ilocalización</label>
+            </value>
+            <value>
+                <fullName>Inseguridad</fullName>
+                <default>false</default>
+                <label>Inseguridad</label>
+            </value>
+            <value>
+                <fullName>Insolvencia por garantías</fullName>
+                <default>false</default>
+                <label>Insolvencia por garantías</label>
+            </value>
+            <value>
+                <fullName>Juicio Laboral</fullName>
+                <default>false</default>
+                <label>Juicio Laboral</label>
+            </value>
+            <value>
+                <fullName>Reposición de Autos</fullName>
+                <default>false</default>
+                <label>Reposición de Autos</label>
+            </value>
+            <value>
+                <fullName>Variación de Domicilio</fullName>
+                <default>false</default>
+                <label>Variación de Domicilio</label>
+            </value>
+            <value>
+                <fullName>Liquidez Baja</fullName>
+                <default>false</default>
+                <label>Liquidez Baja</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

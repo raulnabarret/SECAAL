@@ -1,0 +1,1085 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Código de Resultado --></label>
+        <name>C_digo_de_Resultado__c</name>
+        <picklistValues>
+            <masterLabel>.</masterLabel>
+            <translation><!-- . --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0A - Instructivo en Elaboración</masterLabel>
+            <translation><!-- 0A - Instructivo en Elaboración --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0B - DNR por haber solo Menores de Edad</masterLabel>
+            <translation><!-- 0B - DNR por haber solo Menores de Edad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0C - Ilocalizada No Emplazada / No Litis</masterLabel>
+            <translation><!-- 0C - Ilocalizada No Emplazada / No Litis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0D - Contestan Alguno (s) del (os) Demandado (s)</masterLabel>
+            <translation><!-- 0D - Contestan Alguno (s) del (os) Demandado (s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0E - Espera</masterLabel>
+            <translation><!-- 0E - Espera --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0F - Señala para Embargo (Antes de Sentencia)</masterLabel>
+            <translation><!-- 0F - Señala para Embargo (Antes de Sentencia) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0G - Designación y Aceptación de ICC</masterLabel>
+            <translation><!-- 0G - Designación y Aceptación de ICC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0H - Se Solicita la Apertura a Pruebas</masterLabel>
+            <translation><!-- 0H - Se Solicita la Apertura a Pruebas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0J - Inspección se Materializa</masterLabel>
+            <translation><!-- 0J - Inspección se Materializa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0K - Sentencia Notificada a la Demandada</masterLabel>
+            <translation><!-- 0K - Sentencia Notificada a la Demandada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0L - Se Ordena Dictar Sentencia de Apelación</masterLabel>
+            <translation><!-- 0L - Se Ordena Dictar Sentencia de Apelación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0M - Admisión Amparo Directo</masterLabel>
+            <translation><!-- 0M - Admisión Amparo Directo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0N - Revocación y Admisión Amparo</masterLabel>
+            <translation><!-- 0N - Revocación y Admisión Amparo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0O- Autorización de Fuerza Pública</masterLabel>
+            <translation><!-- 0O- Autorización de Fuerza Pública --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0P - Multa por No Entregar Bien Mueble ICC</masterLabel>
+            <translation><!-- 0P - Multa por No Entregar Bien Mueble ICC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0Q - Exhorto para Notificar a Terceros</masterLabel>
+            <translation><!-- 0Q - Exhorto para Notificar a Terceros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0R - Inc. Liqui. Gastos y/o Inter / Objeción</masterLabel>
+            <translation><!-- 0R - Inc. Liqui. Gastos y/o Inter / Objeción --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0S - Adjudica Postor Bien(es) 3ª Almoneda</masterLabel>
+            <translation><!-- 0S - Adjudica Postor Bien(es) 3ª Almoneda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0T - Escritura Firma Juez / Envía a Notaria</masterLabel>
+            <translation><!-- 0T - Escritura Firma Juez / Envía a Notaria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0U -  Fuerza Pública Ejecutada</masterLabel>
+            <translation><!-- 0U -  Fuerza Pública Ejecutada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0V - Se Dicta Sentencia Interlocutoria</masterLabel>
+            <translation><!-- 0V - Se Dicta Sentencia Interlocutoria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0W - Contestación de la Tercería</masterLabel>
+            <translation><!-- 0W - Contestación de la Tercería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0X - Se Modifica Sentencia Tercería</masterLabel>
+            <translation><!-- 0X - Se Modifica Sentencia Tercería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0Ñ - Apelación Confirma Definitiva</masterLabel>
+            <translation><!-- 0Ñ - Apelación Confirma Definitiva --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 - Asignación a Externo</masterLabel>
+            <translation><!-- 10 - Asignación a Externo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1AA - Dictaminado por abogado externo</masterLabel>
+            <translation><!-- 1AA - Dictaminado por abogado externo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1B - Despecho / Exhorto Elabora y Presenta</masterLabel>
+            <translation><!-- 1B - Despecho / Exhorto Elabora y Presenta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1D - Ofi. Completos - Sol. Emplazar Edictos</masterLabel>
+            <translation><!-- 1D - Ofi. Completos - Sol. Emplazar Edictos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1F - Litispendencia</masterLabel>
+            <translation><!-- 1F - Litispendencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1G - Inscripción Embargo Antes de Sentencia</masterLabel>
+            <translation><!-- 1G - Inscripción Embargo Antes de Sentencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1H - Prevención Entrega Voluntaria de la Caja</masterLabel>
+            <translation><!-- 1H - Prevención Entrega Voluntaria de la Caja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1J - Dictamen Pericial de la Actora</masterLabel>
+            <translation><!-- 1J - Dictamen Pericial de la Actora --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1K - Concluye Período Probatorio</masterLabel>
+            <translation><!-- 1K - Concluye Período Probatorio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1L - Notificación de Sentencia a la Actora</masterLabel>
+            <translation><!-- 1L - Notificación de Sentencia a la Actora --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1M - Se Dicta Sentencia de Apelación</masterLabel>
+            <translation><!-- 1M - Se Dicta Sentencia de Apelación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1N - Notificación a 3º de Amparo Directo</masterLabel>
+            <translation><!-- 1N - Notificación a 3º de Amparo Directo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1O - Apelación Modifica Parcial 1ª Instancia</masterLabel>
+            <translation><!-- 1O - Apelación Modifica Parcial 1ª Instancia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1P - Autorización de Cateo y Fuerza Pública</masterLabel>
+            <translation><!-- 1P - Autorización de Cateo y Fuerza Pública --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1Q - Arresto por No Entregar Bien Mueble  ICC</masterLabel>
+            <translation><!-- 1Q - Arresto por No Entregar Bien Mueble  ICC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1R - Edictos Notificación a Terceros</masterLabel>
+            <translation><!-- 1R - Edictos Notificación a Terceros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1S - Se Publican Edictos Para Remate</masterLabel>
+            <translation><!-- 1S - Se Publican Edictos Para Remate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1T - Consigna y Entrega Precio</masterLabel>
+            <translation><!-- 1T - Consigna y Entrega Precio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1U - Escritura de Adjudicación en Registro</masterLabel>
+            <translation><!-- 1U - Escritura de Adjudicación en Registro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1V - Expedición de Factura de Adjudicación</masterLabel>
+            <translation><!-- 1V - Expedición de Factura de Adjudicación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1W - Se Declara la Procedencia del Incidente</masterLabel>
+            <translation><!-- 1W - Se Declara la Procedencia del Incidente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1X - Deshago de Pruebas de Tercería</masterLabel>
+            <translation><!-- 1X - Deshago de Pruebas de Tercería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1Y - Término Para Amparo Directo Tercería</masterLabel>
+            <translation><!-- 1Y - Término Para Amparo Directo Tercería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1Z - Fecha Reasignación para Eecución</masterLabel>
+            <translation><!-- 1Z - Fecha Reasignación para Eecución --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20 - Aclaración de la demanda</masterLabel>
+            <translation><!-- 20 - Aclaración de la demanda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2AA - Revisado y Autorizado por CRC</masterLabel>
+            <translation><!-- 2AA - Revisado y Autorizado por CRC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2B - Despacho / Exhorto Dilig. - Devolución</masterLabel>
+            <translation><!-- 2B - Despacho / Exhorto Dilig. - Devolución --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2D - Autoriza Empla. Edictos - Solicita Gastos</masterLabel>
+            <translation><!-- 2D - Autoriza Empla. Edictos - Solicita Gastos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2E - Falta de Personalidad</masterLabel>
+            <translation><!-- 2E - Falta de Personalidad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2F - Conexidad de la Causa</masterLabel>
+            <translation><!-- 2F - Conexidad de la Causa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2G - Previene Entrega Volunt. Antes de Sentencia</masterLabel>
+            <translation><!-- 2G - Previene Entrega Volunt. Antes de Sentencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2H - Autorización de Fuerza Pública ICC</masterLabel>
+            <translation><!-- 2H - Autorización de Fuerza Pública ICC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2J - Pericial Tercero en Discordia</masterLabel>
+            <translation><!-- 2J - Pericial Tercero en Discordia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2K - Apertura Alegatos</masterLabel>
+            <translation><!-- 2K - Apertura Alegatos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2L - Expira Término para Apelación</masterLabel>
+            <translation><!-- 2L - Expira Término para Apelación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2M - Sentencia de Apelación Confirma</masterLabel>
+            <translation><!-- 2M - Sentencia de Apelación Confirma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2N - Suspensión Acto Reclamado</masterLabel>
+            <translation><!-- 2N - Suspensión Acto Reclamado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2O - Apelación Revoca Negativa Actora</masterLabel>
+            <translation><!-- 2O - Apelación Revoca Negativa Actora --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2P - Multa por No Entregar Bien Mueble</masterLabel>
+            <translation><!-- 2P - Multa por No Entregar Bien Mueble --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2Q - Ejecución de arresto ICC</masterLabel>
+            <translation><!-- 2Q - Ejecución de arresto ICC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2R - Avalúo Actora</masterLabel>
+            <translation><!-- 2R - Avalúo Actora --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2S - Se Adjuntan Edictos por Remate</masterLabel>
+            <translation><!-- 2S - Se Adjuntan Edictos por Remate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2T - Liquidación de Acreedor Preferente</masterLabel>
+            <translation><!-- 2T - Liquidación de Acreedor Preferente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2U - Escritura Adjudicación Registrada</masterLabel>
+            <translation><!-- 2U - Escritura Adjudicación Registrada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2V - Prevención de Otorgamiento de Factura</masterLabel>
+            <translation><!-- 2V - Prevención de Otorgamiento de Factura --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2W - Se Declara Improcedente el Incidente</masterLabel>
+            <translation><!-- 2W - Se Declara Improcedente el Incidente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2X - Se Cita Para Sentencia de Tercería</masterLabel>
+            <translation><!-- 2X - Se Cita Para Sentencia de Tercería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2Y - Amparo Directo Dentro de Tercería</masterLabel>
+            <translation><!-- 2Y - Amparo Directo Dentro de Tercería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2Ñ - En Proyecto de Sentencia Amparo</masterLabel>
+            <translation><!-- 2Ñ - En Proyecto de Sentencia Amparo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30 - DNR por Negarse a Recibir Notificación</masterLabel>
+            <translation><!-- 30 - DNR por Negarse a Recibir Notificación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3AA - Dictamen elaborado</masterLabel>
+            <translation><!-- 3AA - Dictamen elaborado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3B - Desig. Actuario / Not. Encarga Actuario</masterLabel>
+            <translation><!-- 3B - Desig. Actuario / Not. Encarga Actuario --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3C - Autoriza Días/Horas Inhábil x Emplazar</masterLabel>
+            <translation><!-- 3C - Autoriza Días/Horas Inhábil x Emplazar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3D - Elaboración de Edictos x Emplazamiento</masterLabel>
+            <translation><!-- 3D - Elaboración de Edictos x Emplazamiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3E - Incompetencia</masterLabel>
+            <translation><!-- 3E - Incompetencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3F - División y Excusiòn</masterLabel>
+            <translation><!-- 3F - División y Excusiòn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3G - Fuerza Pública Antes de Sentencia</masterLabel>
+            <translation><!-- 3G - Fuerza Pública Antes de Sentencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3H - Autoriza. de Cateo y Fuerza Pública ICC</masterLabel>
+            <translation><!-- 3H - Autoriza. de Cateo y Fuerza Pública ICC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3J - Prueba Pericial Desierta</masterLabel>
+            <translation><!-- 3J - Prueba Pericial Desierta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3K - Alegatos Presenta la Actora</masterLabel>
+            <translation><!-- 3K - Alegatos Presenta la Actora --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3L - Recurso de Aclaración de Sentencia</masterLabel>
+            <translation><!-- 3L - Recurso de Aclaración de Sentencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3M - Apelación Modifica Acciones de la Actora</masterLabel>
+            <translation><!-- 3M - Apelación Modifica Acciones de la Actora --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3N - Niega Suspensión</masterLabel>
+            <translation><!-- 3N - Niega Suspensión --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3O - Apelación Revoca Favorable Actora</masterLabel>
+            <translation><!-- 3O - Apelación Revoca Favorable Actora --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3P - Arresto por No Entregar Bien Mueble</masterLabel>
+            <translation><!-- 3P - Arresto por No Entregar Bien Mueble --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3Q - Toma de Posesión de Bien Embargado ICC</masterLabel>
+            <translation><!-- 3Q - Toma de Posesión de Bien Embargado ICC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3R - Avalúo Demandado</masterLabel>
+            <translation><!-- 3R - Avalúo Demandado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3S - Se Decreta Fincamiento de Remate</masterLabel>
+            <translation><!-- 3S - Se Decreta Fincamiento de Remate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3T - Solicitud Entrega Producto Remate</masterLabel>
+            <translation><!-- 3T - Solicitud Entrega Producto Remate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3U - Escritura Registrada Allega al Juzgado</masterLabel>
+            <translation><!-- 3U - Escritura Registrada Allega al Juzgado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3V - Firma de Factura Judicial en Rebeldía</masterLabel>
+            <translation><!-- 3V - Firma de Factura Judicial en Rebeldía --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3W - Apelación Sentencia Interlocutoria</masterLabel>
+            <translation><!-- 3W - Apelación Sentencia Interlocutoria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3X - Se Dicta Sentencia de la Tercería</masterLabel>
+            <translation><!-- 3X - Se Dicta Sentencia de la Tercería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3Y - Desestimiento Demanda y no de la Acción</masterLabel>
+            <translation><!-- 3Y - Desestimiento Demanda y no de la Acción --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3Z - Inscripción Convenio</masterLabel>
+            <translation><!-- 3Z - Inscripción Convenio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3Ñ - Votación Colegiado Proyecto Sentencia</masterLabel>
+            <translation><!-- 3Ñ - Votación Colegiado Proyecto Sentencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40 - Emplazamiento Parcial</masterLabel>
+            <translation><!-- 40 - Emplazamiento Parcial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4A - Prevención para admisión de la demanda</masterLabel>
+            <translation><!-- 4A - Prevención para admisión de la demanda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4AA - Para cierre de juicio</masterLabel>
+            <translation><!-- 4AA - Para cierre de juicio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4B - Cita para Realizar Emplazamiento</masterLabel>
+            <translation><!-- 4B - Cita para Realizar Emplazamiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4C - Se Señala Nuevo Domicilio para Emplazar</masterLabel>
+            <translation><!-- 4C - Se Señala Nuevo Domicilio para Emplazar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4D - Publicación de Edictos de Emplazamiento</masterLabel>
+            <translation><!-- 4D - Publicación de Edictos de Emplazamiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4E - Error de la Vía</masterLabel>
+            <translation><!-- 4E - Error de la Vía --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4F - Otras Especificar ___________</masterLabel>
+            <translation><!-- 4F - Otras Especificar ___________ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4G - Cateo / Fuerza Pública Antes de Sentencia</masterLabel>
+            <translation><!-- 4G - Cateo / Fuerza Pública Antes de Sentencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4H - Multa por No Entregar Bien Mueble ICC</masterLabel>
+            <translation><!-- 4H - Multa por No Entregar Bien Mueble ICC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4J - Pericial Tercero en Discordia</masterLabel>
+            <translation><!-- 4J - Pericial Tercero en Discordia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4K - Alegatos Presenta la Demandada</masterLabel>
+            <translation><!-- 4K - Alegatos Presenta la Demandada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4L - Admisión de Recurso y Ordena Vista</masterLabel>
+            <translation><!-- 4L - Admisión de Recurso y Ordena Vista --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4M - Apelación Revoca Acciones de la Actora</masterLabel>
+            <translation><!-- 4M - Apelación Revoca Acciones de la Actora --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4N - Quejoso Otorga Cauciòn</masterLabel>
+            <translation><!-- 4N - Quejoso Otorga Cauciòn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4O - Remisión Expediente Juzgado Origen</masterLabel>
+            <translation><!-- 4O - Remisión Expediente Juzgado Origen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4P -  Ejecución  de Arresto</masterLabel>
+            <translation><!-- 4P -  Ejecución  de Arresto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4Q - Descripción, Ubicación y Responsable ICC</masterLabel>
+            <translation><!-- 4Q - Descripción, Ubicación y Responsable ICC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4R - Avalúo Tercer Acreedor</masterLabel>
+            <translation><!-- 4R - Avalúo Tercer Acreedor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4S - Suspende Remate, Amparo / Tercería</masterLabel>
+            <translation><!-- 4S - Suspende Remate, Amparo / Tercería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4T - Se Recibe Producto de Remate</masterLabel>
+            <translation><!-- 4T - Se Recibe Producto de Remate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4U - Prevención Entrega Voluntaria Inmueble</masterLabel>
+            <translation><!-- 4U - Prevención Entrega Voluntaria Inmueble --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4V - Entrega de Factura</masterLabel>
+            <translation><!-- 4V - Entrega de Factura --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4W - Radicacion Apelación Interlocutoria</masterLabel>
+            <translation><!-- 4W - Radicacion Apelación Interlocutoria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4X - Se Declara Procedente Tercería</masterLabel>
+            <translation><!-- 4X - Se Declara Procedente Tercería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4Y - Desestimiento Demanda y Acción (Pago)</masterLabel>
+            <translation><!-- 4Y - Desestimiento Demanda y Acción (Pago) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4Z - Prevención Cumplimiento Convenio</masterLabel>
+            <translation><!-- 4Z - Prevención Cumplimiento Convenio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4Ñ - Aplazamiento de Sentencia</masterLabel>
+            <translation><!-- 4Ñ - Aplazamiento de Sentencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50 -  Excepciones de la Demanda</masterLabel>
+            <translation><!-- 50 -  Excepciones de la Demanda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5A - Desahogo Prev. para admisión de demanda</masterLabel>
+            <translation><!-- 5A - Desahogo Prev. para admisión de demanda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5B - Diligencia de Emplazamiento</masterLabel>
+            <translation><!-- 5B - Diligencia de Emplazamiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5C - Notificación y Emplazamiento Efectuado</masterLabel>
+            <translation><!-- 5C - Notificación y Emplazamiento Efectuado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5D - Presenta Edictos Publicados</masterLabel>
+            <translation><!-- 5D - Presenta Edictos Publicados --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5E - Certificación Contable Deficiente</masterLabel>
+            <translation><!-- 5E - Certificación Contable Deficiente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5F - Escrito de Replica</masterLabel>
+            <translation><!-- 5F - Escrito de Replica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5G - Multa No Entrega Mueble Antes Sentencia</masterLabel>
+            <translation><!-- 5G - Multa No Entrega Mueble Antes Sentencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5H - Arresto por No Entregar Bien Mueble ICC</masterLabel>
+            <translation><!-- 5H - Arresto por No Entregar Bien Mueble ICC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5J - Prueba Pericial Desierta (2a)</masterLabel>
+            <translation><!-- 5J - Prueba Pericial Desierta (2a) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5K - Se Solicita se Dicte Sentencia</masterLabel>
+            <translation><!-- 5K - Se Solicita se Dicte Sentencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5L - Resolución de Aclaración Definitiva de Sentencia</masterLabel>
+            <translation><!-- 5L - Resolución de Aclaración Definitiva de Sentencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5M - Sentencia Apelación Favorable a Actora</masterLabel>
+            <translation><!-- 5M - Sentencia Apelación Favorable a Actora --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5N - Remisión de Amparo Directo</masterLabel>
+            <translation><!-- 5N - Remisión de Amparo Directo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5O - Notificación Llegada de Autos a Juzgado</masterLabel>
+            <translation><!-- 5O - Notificación Llegada de Autos a Juzgado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5P - Toma de Posesión de Bien Embargado</masterLabel>
+            <translation><!-- 5P - Toma de Posesión de Bien Embargado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5Q - Embargo Cuentas Bancarias</masterLabel>
+            <translation><!-- 5Q - Embargo Cuentas Bancarias --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5R - Avalúo en Rebeldía / Discordia</masterLabel>
+            <translation><!-- 5R - Avalúo en Rebeldía / Discordia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5S - Adjudica Actora Bien(es) 1a Almoneda</masterLabel>
+            <translation><!-- 5S - Adjudica Actora Bien(es) 1a Almoneda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5T - Prevención a Demandado Otorgue Escritura</masterLabel>
+            <translation><!-- 5T - Prevención a Demandado Otorgue Escritura --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5U - Prevención Entrega Voluntaria de Mueble</masterLabel>
+            <translation><!-- 5U - Prevención Entrega Voluntaria de Mueble --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5V - Se Admite Incidente</masterLabel>
+            <translation><!-- 5V - Se Admite Incidente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5W - Sentencia Apelación Sobre Interlocutoria</masterLabel>
+            <translation><!-- 5W - Sentencia Apelación Sobre Interlocutoria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5X - Se Declara Improcedente Tercería</masterLabel>
+            <translation><!-- 5X - Se Declara Improcedente Tercería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5Y - Celebra Convenio Judicial</masterLabel>
+            <translation><!-- 5Y - Celebra Convenio Judicial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5Z - Desahogo Cumplimiento Convenio Demandado</masterLabel>
+            <translation><!-- 5Z - Desahogo Cumplimiento Convenio Demandado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5Ñ - Sentencia de Amparo Directo</masterLabel>
+            <translation><!-- 5Ñ - Sentencia de Amparo Directo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>61 - Término Común para Ofrecer Pruebas</masterLabel>
+            <translation><!-- 61 - Término Común para Ofrecer Pruebas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>62 - Presentación de Pruebas</masterLabel>
+            <translation><!-- 62 - Presentación de Pruebas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>63 - Calificación de Pruebas</masterLabel>
+            <translation><!-- 63 - Calificación de Pruebas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>64 - Admisión de Pruebas de la Actora</masterLabel>
+            <translation><!-- 64 - Admisión de Pruebas de la Actora --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>65 - Desechan Pruebas de la Actora</masterLabel>
+            <translation><!-- 65 - Desechan Pruebas de la Actora --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>66 - Admisión de Pruebas de la Demandada</masterLabel>
+            <translation><!-- 66 - Admisión de Pruebas de la Demandada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>67 - Desechan Pruebas de la Demandada</masterLabel>
+            <translation><!-- 67 - Desechan Pruebas de la Demandada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>68 - Fecha para Desahogar Testimonial</masterLabel>
+            <translation><!-- 68 - Fecha para Desahogar Testimonial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>69 - Fecha para Desahogar Confesional</masterLabel>
+            <translation><!-- 69 - Fecha para Desahogar Confesional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6A - Pendiente radicación de la demanda</masterLabel>
+            <translation><!-- 6A - Pendiente radicación de la demanda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6B - Diligencia no Realizada</masterLabel>
+            <translation><!-- 6B - Diligencia no Realizada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6C - Solicita Pesquisas Autoridades</masterLabel>
+            <translation><!-- 6C - Solicita Pesquisas Autoridades --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6D - Not. y Emplazamiento x Edictos Efectuado</masterLabel>
+            <translation><!-- 6D - Not. y Emplazamiento x Edictos Efectuado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6E - Crédito No Dispuesto</masterLabel>
+            <translation><!-- 6E - Crédito No Dispuesto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6F - La Parte Demandad No Contesta</masterLabel>
+            <translation><!-- 6F - La Parte Demandad No Contesta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6G - Arresto No Entrega Mueble Antes Sentencia</masterLabel>
+            <translation><!-- 6G - Arresto No Entrega Mueble Antes Sentencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6H - Ejecución de Arresto ICC</masterLabel>
+            <translation><!-- 6H - Ejecución de Arresto ICC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6J - Prueba Pericial Desierta (3a)</masterLabel>
+            <translation><!-- 6J - Prueba Pericial Desierta (3a) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6K - En Proyecto de Sentencia Definitiva</masterLabel>
+            <translation><!-- 6K - En Proyecto de Sentencia Definitiva --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6L - Se Admite Apelación</masterLabel>
+            <translation><!-- 6L - Se Admite Apelación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6M - Notificación Actora Sentencia Apelación</masterLabel>
+            <translation><!-- 6M - Notificación Actora Sentencia Apelación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6N - Colegiado Recibe Amparo Directo</masterLabel>
+            <translation><!-- 6N - Colegiado Recibe Amparo Directo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6O - Acuerdo y Not. de Sentencia Ejecutoria</masterLabel>
+            <translation><!-- 6O - Acuerdo y Not. de Sentencia Ejecutoria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6P - Designación y Aceptación de ICC</masterLabel>
+            <translation><!-- 6P - Designación y Aceptación de ICC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6Q - Recibe Recurso de Cuentas Bancarias</masterLabel>
+            <translation><!-- 6Q - Recibe Recurso de Cuentas Bancarias --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6R - Avalúos  a la Vista</masterLabel>
+            <translation><!-- 6R - Avalúos  a la Vista --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6S - Adjudica Postor Bien(es) 1ª Almoneda</masterLabel>
+            <translation><!-- 6S - Adjudica Postor Bien(es) 1ª Almoneda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6T - Designa Notaria / Envío</masterLabel>
+            <translation><!-- 6T - Designa Notaria / Envío --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6U - Oposición / Suspende Toma de Posesión</masterLabel>
+            <translation><!-- 6U - Oposición / Suspende Toma de Posesión --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6V - Se Notifica Incidente a la Contraparte</masterLabel>
+            <translation><!-- 6V - Se Notifica Incidente a la Contraparte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6W - Se Confirma Sentencia Interlocutoria</masterLabel>
+            <translation><!-- 6W - Se Confirma Sentencia Interlocutoria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6X - Apelación Sentencia Tercería</masterLabel>
+            <translation><!-- 6X - Apelación Sentencia Tercería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6Y - Daciòn en Pago</masterLabel>
+            <translation><!-- 6Y - Daciòn en Pago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6Z - Deshago Vista Cumplimiento de Convenio Actor</masterLabel>
+            <translation><!-- 6Z - Deshago Vista Cumplimiento de Convenio Actor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6Ñ - Negación de Amparo Directo</masterLabel>
+            <translation><!-- 6Ñ - Negación de Amparo Directo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>70 - Actora Designa Perito</masterLabel>
+            <translation><!-- 70 - Actora Designa Perito --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7A - Incompetencia del Juez</masterLabel>
+            <translation><!-- 7A - Incompetencia del Juez --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7B - DNR por Inasistencia de Funcionario</masterLabel>
+            <translation><!-- 7B - DNR por Inasistencia de Funcionario --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7C - Obtención de Oficios x Pesquisas</masterLabel>
+            <translation><!-- 7C - Obtención de Oficios x Pesquisas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7D - Demandado Contesta</masterLabel>
+            <translation><!-- 7D - Demandado Contesta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7E - Negativa Suscripción Documentos Base</masterLabel>
+            <translation><!-- 7E - Negativa Suscripción Documentos Base --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7F - La Demandada Se Allana</masterLabel>
+            <translation><!-- 7F - La Demandada Se Allana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7G - Ejecución de Arresto Antes de Sentencia</masterLabel>
+            <translation><!-- 7G - Ejecución de Arresto Antes de Sentencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7H - Toma de Posesión de Bien Embargado ICC</masterLabel>
+            <translation><!-- 7H - Toma de Posesión de Bien Embargado ICC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7J - Inspección Judicial</masterLabel>
+            <translation><!-- 7J - Inspección Judicial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7K - Sentencia Definitiva a Favor</masterLabel>
+            <translation><!-- 7K - Sentencia Definitiva a Favor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7L - Se tiene Desahogada Vista de Apelación</masterLabel>
+            <translation><!-- 7L - Se tiene Desahogada Vista de Apelación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7M . Notificación Reo Sentencia Apelación</masterLabel>
+            <translation><!-- 7M . Notificación Reo Sentencia Apelación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7N - Amparo Directo Desechado</masterLabel>
+            <translation><!-- 7N - Amparo Directo Desechado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7O - Señala para Embargo</masterLabel>
+            <translation><!-- 7O - Señala para Embargo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7P - Prevención Entrega Voluntaria de la Caja</masterLabel>
+            <translation><!-- 7P - Prevención Entrega Voluntaria de la Caja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7Q - Ordenamiento para Rematar Bienes</masterLabel>
+            <translation><!-- 7Q - Ordenamiento para Rematar Bienes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7R - Solicita Remate</masterLabel>
+            <translation><!-- 7R - Solicita Remate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7S - Adjudica Actora Bien(es) 2º Almoneda</masterLabel>
+            <translation><!-- 7S - Adjudica Actora Bien(es) 2º Almoneda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7T - Recibe Notaria Oficio y Copias</masterLabel>
+            <translation><!-- 7T - Recibe Notaria Oficio y Copias --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7U -  Arresto en Trámite</masterLabel>
+            <translation><!-- 7U -  Arresto en Trámite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7V - Contestación de Incidente</masterLabel>
+            <translation><!-- 7V - Contestación de Incidente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7W - Se Modifica la Sentencia Interlocutoria</masterLabel>
+            <translation><!-- 7W - Se Modifica la Sentencia Interlocutoria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7X - Radicacion Apelación Tercería</masterLabel>
+            <translation><!-- 7X - Radicacion Apelación Tercería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7Y - Dictamen de Crédito Incobrable</masterLabel>
+            <translation><!-- 7Y - Dictamen de Crédito Incobrable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7Z - Solicita Ejecución Convenio</masterLabel>
+            <translation><!-- 7Z - Solicita Ejecución Convenio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7Ñ - Amparo Directo Procedente</masterLabel>
+            <translation><!-- 7Ñ - Amparo Directo Procedente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8A - Demanda Admitida</masterLabel>
+            <translation><!-- 8A - Demanda Admitida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8B - DNR por no Encontrarse Persona Alguna</masterLabel>
+            <translation><!-- 8B - DNR por no Encontrarse Persona Alguna --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8C - Presenta Oficios Pesquisas/se Razonan</masterLabel>
+            <translation><!-- 8C - Presenta Oficios Pesquisas/se Razonan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8D - Demandado No Contesta</masterLabel>
+            <translation><!-- 8D - Demandado No Contesta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8E - Pago</masterLabel>
+            <translation><!-- 8E - Pago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8F - Se Ordena Vista a la Contestación</masterLabel>
+            <translation><!-- 8F - Se Ordena Vista a la Contestación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8G - Posesión Bien Embargado Antes Sentencia</masterLabel>
+            <translation><!-- 8G - Posesión Bien Embargado Antes Sentencia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8H - Descripción, Ubicación y Responsable ICC</masterLabel>
+            <translation><!-- 8H - Descripción, Ubicación y Responsable ICC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8J - Se Admite Inspección y se Fija Fecha</masterLabel>
+            <translation><!-- 8J - Se Admite Inspección y se Fija Fecha --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8K - Sentencia Definitiva Parcial Favorable</masterLabel>
+            <translation><!-- 8K - Sentencia Definitiva Parcial Favorable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8L - Envío de Autos para Trámite de Apelación</masterLabel>
+            <translation><!-- 8L - Envío de Autos para Trámite de Apelación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8M - Concluye Plazo para Amparo Directo</masterLabel>
+            <translation><!-- 8M - Concluye Plazo para Amparo Directo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8N - Reclamación Amparo Directo Desechado</masterLabel>
+            <translation><!-- 8N - Reclamación Amparo Directo Desechado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8O - Inscripción de Embargo (s) se Realiza</masterLabel>
+            <translation><!-- 8O - Inscripción de Embargo (s) se Realiza --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8P - Autorización de Fuerza Publica ICC</masterLabel>
+            <translation><!-- 8P - Autorización de Fuerza Publica ICC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8Q - Certificado de Gravamen (es) se Allega</masterLabel>
+            <translation><!-- 8Q - Certificado de Gravamen (es) se Allega --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8R - Fecha Remate</masterLabel>
+            <translation><!-- 8R - Fecha Remate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8S - Adjudica Postor Bien(es) 2ª Almoneda</masterLabel>
+            <translation><!-- 8S - Adjudica Postor Bien(es) 2ª Almoneda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8T - En Elaborac. de Escr. Rebeldía / Revisión</masterLabel>
+            <translation><!-- 8T - En Elaborac. de Escr. Rebeldía / Revisión --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8U -  Multa en Trámite</masterLabel>
+            <translation><!-- 8U -  Multa en Trámite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8V - Deshago de Pruebas del Incidente</masterLabel>
+            <translation><!-- 8V - Deshago de Pruebas del Incidente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8W - Admisión de Tercería</masterLabel>
+            <translation><!-- 8W - Admisión de Tercería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8X - Sentencia Apelación Sobre Tercería</masterLabel>
+            <translation><!-- 8X - Sentencia Apelación Sobre Tercería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8Y - Caducidad de la Instancia</masterLabel>
+            <translation><!-- 8Y - Caducidad de la Instancia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8Z - Decreta Ejecución Convenio</masterLabel>
+            <translation><!-- 8Z - Decreta Ejecución Convenio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8Ñ - Amparo Revoca Sentencia 2ª Instancia</masterLabel>
+            <translation><!-- 8Ñ - Amparo Revoca Sentencia 2ª Instancia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9A - Desechamiento de la  de la demanda</masterLabel>
+            <translation><!-- 9A - Desechamiento de la  de la demanda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9B - DNR por no ser Domicilio del Demandado</masterLabel>
+            <translation><!-- 9B - DNR por no ser Domicilio del Demandado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9C - Respuesta a Oficio de Localización</masterLabel>
+            <translation><!-- 9C - Respuesta a Oficio de Localización --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9D - Se acusa Rebeldía</masterLabel>
+            <translation><!-- 9D - Se acusa Rebeldía --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9E - Novaciòn</masterLabel>
+            <translation><!-- 9E - Novaciòn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9F - Se Desahoga Vista a la Contestación</masterLabel>
+            <translation><!-- 9F - Se Desahoga Vista a la Contestación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9G - Intervención con Cargo a la Caja</masterLabel>
+            <translation><!-- 9G - Intervención con Cargo a la Caja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9H - Embargo Cuentas Bancarias</masterLabel>
+            <translation><!-- 9H - Embargo Cuentas Bancarias --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9J - Se Desahoga Inspección</masterLabel>
+            <translation><!-- 9J - Se Desahoga Inspección --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9K - Sentencia Definitiva Improcedente</masterLabel>
+            <translation><!-- 9K - Sentencia Definitiva Improcedente --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9L - Radicacion de Apelación en Sala</masterLabel>
+            <translation><!-- 9L - Radicacion de Apelación en Sala --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9M - Amparo Directo en Sala</masterLabel>
+            <translation><!-- 9M - Amparo Directo en Sala --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9N - Confirmación Desechamiento</masterLabel>
+            <translation><!-- 9N - Confirmación Desechamiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9O - Prevención Entrega Voluntaria</masterLabel>
+            <translation><!-- 9O - Prevención Entrega Voluntaria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9P - Autoriza Cateo y Fuerza Pública ICC</masterLabel>
+            <translation><!-- 9P - Autoriza Cateo y Fuerza Pública ICC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9Q - Notificación de Terceros Acreedores</masterLabel>
+            <translation><!-- 9Q - Notificación de Terceros Acreedores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9R - Edictos Remate</masterLabel>
+            <translation><!-- 9R - Edictos Remate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9S - Adjudica Actora Bien(es) 3ª Almoneda</masterLabel>
+            <translation><!-- 9S - Adjudica Actora Bien(es) 3ª Almoneda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9T - Escritura Rebeldía en Revisión x Juzgado</masterLabel>
+            <translation><!-- 9T - Escritura Rebeldía en Revisión x Juzgado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9U -  Fuerza Pública en Trámite</masterLabel>
+            <translation><!-- 9U -  Fuerza Pública en Trámite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9V - Se Cita para Sentencia Interlocutoria</masterLabel>
+            <translation><!-- 9V - Se Cita para Sentencia Interlocutoria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9W - Emplazamiento de la Tercería</masterLabel>
+            <translation><!-- 9W - Emplazamiento de la Tercería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9X - Se Confirma Sentencia Tercería</masterLabel>
+            <translation><!-- 9X - Se Confirma Sentencia Tercería --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9Y - Cesión de Derechos a Terceros</masterLabel>
+            <translation><!-- 9Y - Cesión de Derechos a Terceros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9Ñ - Cumple Ejecutoria Amparo</masterLabel>
+            <translation><!-- 9Ñ - Cumple Ejecutoria Amparo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AD - Rechazo de la demanda</masterLabel>
+            <translation><!-- AD - Rechazo de la demanda --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

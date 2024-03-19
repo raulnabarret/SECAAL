@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Etapa_Administrativa__c</fullName>
+    <externalId>false</externalId>
+    <label>Etapa Administrativa Entrada</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Clasificación en Pendientes</fullName>
+                <default>false</default>
+                <label>Clasificación en Pendientes</label>
+            </value>
+            <value>
+                <fullName>Recepción de Documentos</fullName>
+                <default>false</default>
+                <label>Recepción de Documentos</label>
+            </value>
+            <value>
+                <fullName>Revisión de Documentos</fullName>
+                <default>false</default>
+                <label>Revisión de Documentos</label>
+            </value>
+            <value>
+                <fullName>Solicitud de Certificación Contable</fullName>
+                <default>false</default>
+                <label>Solicitud de Certificación Contable</label>
+            </value>
+            <value>
+                <fullName>Solicitud de Documentos Varios</fullName>
+                <default>false</default>
+                <label>Solicitud de Documentos Varios</label>
+            </value>
+            <value>
+                <fullName>Revisión de Garantías y Bienes Susceptibles de Embargo</fullName>
+                <default>false</default>
+                <label>Revisión de Garantías y Bienes Susceptibles de Embargo</label>
+            </value>
+            <value>
+                <fullName>Clasificación en Recuperables</fullName>
+                <default>false</default>
+                <label>Clasificación en Recuperables</label>
+            </value>
+            <value>
+                <fullName>Clasificación en Irrecuperables</fullName>
+                <default>false</default>
+                <label>Clasificación en Irrecuperables</label>
+            </value>
+            <value>
+                <fullName>Acuse Abogado Externo</fullName>
+                <default>false</default>
+                <label>Acuse Abogado Externo</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

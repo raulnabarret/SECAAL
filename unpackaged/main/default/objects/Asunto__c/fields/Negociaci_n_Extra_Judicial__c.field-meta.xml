@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Negociaci_n_Extra_Judicial__c</fullName>
+    <externalId>false</externalId>
+    <label>Negociación Extra Judicial</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Acercamiento con el cliente</fullName>
+                <default>false</default>
+                <label>Acercamiento con el cliente</label>
+            </value>
+            <value>
+                <fullName>Negociación Concluida</fullName>
+                <default>false</default>
+                <label>Negociación Concluida</label>
+            </value>
+            <value>
+                <fullName>Propuesta Aprobada y en Ejecución</fullName>
+                <default>false</default>
+                <label>Propuesta Aprobada y en Ejecución</label>
+            </value>
+            <value>
+                <fullName>Recepción de Propuesta y Preparar para Comité para Autorización</fullName>
+                <default>false</default>
+                <label>Recepción de Propuesta y Preparar para Comité para Autorización</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

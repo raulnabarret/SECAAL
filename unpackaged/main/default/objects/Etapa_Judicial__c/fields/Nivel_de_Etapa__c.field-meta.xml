@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nivel_de_Etapa__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISPICKVAL( Etapa_Judicial__c , 'Demanda'),1,
+    IF(ISPICKVAL( Etapa_Judicial__c , 'Notificación y emplazamiento personal en trámite'),2,
+    IF(ISPICKVAL( Etapa_Judicial__c , 'Deudor ilocalizado en emplazamiento'),3,
+    IF(ISPICKVAL( Etapa_Judicial__c , 'Not. y Emplazam. por edictos en tramite'),4,
+    IF(ISPICKVAL( Etapa_Judicial__c , 'Notificacion y emplazamiento personal en tramite'),2,
+    IF(ISPICKVAL( Etapa_Judicial__c , 'Contestación a la demanda'),5,
+    IF(ISPICKVAL( Etapa_Judicial__c , 'Contestacion a la Demanda'),5,
+    IF(ISPICKVAL( Etapa_Judicial__c , 'Embargo antes de Sentencia'),6,
+    IF(ISPICKVAL( Etapa_Judicial__c , 'Pruebas'),7,
+    IF(ISPICKVAL( Etapa_Judicial__c , 'Solicitud se dicte sentencia definitiva'),8,
+    IF(ISPICKVAL( Etapa_Judicial__c , 'Se solicita se dicte sentencia definitiva'),8,
+    IF(ISPICKVAL( Etapa_Judicial__c , 'Apelación'),9,
+    IF(ISPICKVAL( Etapa_Judicial__c , 'Apelacion'),9,
+    IF(ISPICKVAL( Etapa_Judicial__c , 'Amparo directo'),10,
+    IF(ISPICKVAL( Etapa_Judicial__c , 'Amparo'),10,
+    IF(ISPICKVAL( Etapa_Judicial__c , 'Ejecución de Sentencia'),11,
+    IF(ISPICKVAL( Etapa_Judicial__c , 'Ejecucion de Sentencia'),11,
+    IF(ISPICKVAL( Etapa_Judicial__c , 'Ejecución de Convenio'),12,
+    IF(ISPICKVAL( Etapa_Judicial__c , 'Ejecucion de Convenio'),12,
+    IF(ISPICKVAL( Etapa_Judicial__c , 'Remate de Bienes'),13,
+    IF(ISPICKVAL( Etapa_Judicial__c , 'Audiencia de Remate'),14,
+    IF(ISPICKVAL( Etapa_Judicial__c , 'Escrituración en Trámite'),15,
+    IF(ISPICKVAL( Etapa_Judicial__c , 'Escrituracion en Tramite'),15,
+    IF(ISPICKVAL( Etapa_Judicial__c , 'Escrituras en Tramite'),15,
+    IF(ISPICKVAL( Etapa_Judicial__c , 'Toma posesión bien adjudicado y/o arrendado'),16,
+    IF(ISPICKVAL( Etapa_Judicial__c , 'Incidente / Tercería'),17,
+    IF(ISPICKVAL( Etapa_Judicial__c , 'Cierre de Juicio'),18,
+    IF(ISPICKVAL( Etapa_Judicial__c , 'Para Dictamen'),19,0
+    ))))))))))))))))))))))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Nivel de Etapa</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

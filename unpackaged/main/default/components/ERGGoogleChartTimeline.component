@@ -1,0 +1,60 @@
+<apex:component >
+	<apex:attribute name="theChartInfo" type="ERGGoogleChartsTimelineSeq" description="The chart data" required="true" />
+	<div id="timeline"></div>
+	<script type="text/javascript">
+		// -----------------------------
+		console.log('entering script...');
+		
+      	google.charts.setOnLoadCallback(drawChart);
+		// Add columns
+		function drawChart()
+		{
+			var container = document.getElementById('timeline');
+			var chart = new google.visualization.Timeline(container);
+			var data = new google.visualization.DataTable();
+			var columns = []; 
+			<apex:repeat value="{!theChartInfo.columns}" var="column">
+				columns.push(['{!column.type}', '{!column.name}']);
+			</apex:repeat> 
+			console.log('columns: '+columns);
+			for(j = 0; j < columns.length; j++)
+			{
+				data.addColumn(columns[j][0], columns[j][1]); 
+			}
+			var rows = []; 
+			var rowSize = 0; 
+
+			<apex:repeat value="{!theChartInfo.rows}" var="row">
+			var arow = [];
+				<apex:repeat value="{!row.dataPoints}" var="dp">
+					if('{!dp.type}' == 'date' && '{!dp.value}' != '') arow.push(new Date('{!dp.value}')); 
+					if('{!dp.type}' == 'string') arow.push('{!dp.value}'); 
+					if('{!dp.type}' == 'number') arow.push(Number('{!dp.value}'));
+				</apex:repeat>
+				rows.push(arow); 
+			</apex:repeat> 
+			console.log('rows: '+rows);
+			  // Add empty rows
+			  data.addRows(rows.length);
+
+			  for(i = 0; i < rows.length; i++)
+			  {
+			  	var rowLength = rows[i].length; 
+			  	for(x = 0; x < rowLength; x++)
+			  	{
+			  		data.setCell(i, x, rows[i][x]); 
+			  	}
+			  }
+			  
+			var rowHeight = data.getNumberOfRows() * 42;
+		    var chartHeight = rowHeight + 50;
+		    
+		    var options = {
+		    	height:chartHeight,
+		    };
+		    
+			chart.draw(data, options);
+	        
+	       	}
+	</script>
+</apex:component>

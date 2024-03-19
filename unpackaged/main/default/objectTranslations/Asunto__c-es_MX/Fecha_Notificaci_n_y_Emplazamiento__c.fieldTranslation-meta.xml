@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Fecha Notificación y Emplazamiento --></label>
+        <name>Fecha_Notificaci_n_y_Emplazamiento__c</name>
+    </CustomFieldTranslation>

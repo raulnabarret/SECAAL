@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Asunto__c.AGENCIA__c</field>
+    </columns>
+    <columns>
+        <field>Asunto__c.R_F_C__c</field>
+    </columns>
+    <columns>
+        <field>Asunto__c.CIUDAD_Y_ESTADO__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Asunto__c.Monto_Reclamado__c</field>
+    </columns>
+    <columns>
+        <field>Asunto__c.CLAVE_PROCESAL__c</field>
+    </columns>
+    <columns>
+        <field>Numero_de_Credito__c.Tipo_de_Credito__c</field>
+    </columns>
+    <columns>
+        <field>Asunto__c.Acreditado__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Asunto__c.Status_del_Asunto__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>,En Jurídico</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Asunto__c.Despacho__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>FINANCIERA DICTAMEN</value>
+        </criteriaItems>
+        <language>es</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Asunto__c.Ciudad_en_donde_se_encuentra_el_Juzgado__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>CARTERA FINAN PPP POR JURISDICCION Y CD</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntityCustomEntity$Asunto__c$Numero_de_Credito__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Asunto__c.CIUDAD_Y_ESTADO__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Asunto__c.Fecha_de_Asignacion_AE__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

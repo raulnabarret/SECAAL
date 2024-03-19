@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Fecha Deudor y Localizado en Empl. --></label>
+        <name>Fecha_Deudor_y_Localizado_en_Emplazamien__c</name>
+    </CustomFieldTranslation>

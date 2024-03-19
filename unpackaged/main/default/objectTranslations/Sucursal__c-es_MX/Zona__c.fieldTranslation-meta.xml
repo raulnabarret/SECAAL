@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Zona --></label>
+        <name>Zona__c</name>
+        <picklistValues>
+            <masterLabel>Bajio</masterLabel>
+            <translation><!-- Bajio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coahuila Norte</masterLabel>
+            <translation><!-- Coahuila Norte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corredor Minero</masterLabel>
+            <translation><!-- Corredor Minero --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DF Centro</masterLabel>
+            <translation><!-- DF Centro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DF Norte</masterLabel>
+            <translation><!-- DF Norte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DF Sur</masterLabel>
+            <translation><!-- DF Sur --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guadalajara</masterLabel>
+            <translation><!-- Guadalajara --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monterrey Centro</masterLabel>
+            <translation><!-- Monterrey Centro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monterrey Norte</masterLabel>
+            <translation><!-- Monterrey Norte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monterrey Sur</masterLabel>
+            <translation><!-- Monterrey Sur --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monterrey Valle</masterLabel>
+            <translation><!-- Monterrey Valle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Morelia</masterLabel>
+            <translation><!-- Morelia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noroeste</masterLabel>
+            <translation><!-- Noroeste --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patrimonial</masterLabel>
+            <translation><!-- Patrimonial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Queretaro</masterLabel>
+            <translation><!-- Queretaro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saltillo-Laguna</masterLabel>
+            <translation><!-- Saltillo-Laguna --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tamaulipas</masterLabel>
+            <translation><!-- Tamaulipas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tijuana</masterLabel>
+            <translation><!-- Tijuana --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

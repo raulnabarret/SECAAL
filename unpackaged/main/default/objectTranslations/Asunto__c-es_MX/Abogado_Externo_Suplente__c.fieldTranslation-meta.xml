@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- ABOGADO CORRESPONAL --></label>
+        <name>Abogado_Externo_Suplente__c</name>
+        <relationshipLabel><!-- Asuntos (Abogado Externo Suplente) --></relationshipLabel>
+    </CustomFieldTranslation>

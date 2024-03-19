@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Problematica --></label>
+        <name>Problematica__c</name>
+        <picklistValues>
+            <masterLabel>Acceso Privado de Fraccionamiento</masterLabel>
+            <translation><!-- Acceso Privado de Fraccionamiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Defensa del Demandado</masterLabel>
+            <translation><!-- Defensa del Demandado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emplazamiento por exhorto</masterLabel>
+            <translation><!-- Emplazamiento por exhorto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fallecimiento</masterLabel>
+            <translation><!-- Fallecimiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ilocalización</masterLabel>
+            <translation><!-- Ilocalización --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inseguridad</masterLabel>
+            <translation><!-- Inseguridad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insolvencia por garantías</masterLabel>
+            <translation><!-- Insolvencia por garantías --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Juicio Laboral</masterLabel>
+            <translation><!-- Juicio Laboral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liquidez Baja</masterLabel>
+            <translation><!-- Liquidez Baja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reposición de Autos</masterLabel>
+            <translation><!-- Reposición de Autos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Variación de Domicilio</masterLabel>
+            <translation><!-- Variación de Domicilio --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

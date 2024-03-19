@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Esquema_Salida_o_Recuperaci_n__c</fullName>
+    <externalId>false</externalId>
+    <label>Esquema Salida o Recuperación</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Adjudicación</fullName>
+                <default>false</default>
+                <label>Adjudicación</label>
+            </value>
+            <value>
+                <fullName>Adjudicación Parcial</fullName>
+                <default>false</default>
+                <label>Adjudicación Parcial</label>
+            </value>
+            <value>
+                <fullName>Castigo</fullName>
+                <default>false</default>
+                <label>Castigo</label>
+            </value>
+            <value>
+                <fullName>Cesión de Derechos</fullName>
+                <default>false</default>
+                <label>Cesión de Derechos</label>
+            </value>
+            <value>
+                <fullName>Concurso Mercantil</fullName>
+                <default>false</default>
+                <label>Concurso Mercantil</label>
+            </value>
+            <value>
+                <fullName>Dación en Pago</fullName>
+                <default>false</default>
+                <label>Dación en Pago</label>
+            </value>
+            <value>
+                <fullName>Ejecución de Convenio</fullName>
+                <default>false</default>
+                <label>Ejecución de Convenio</label>
+            </value>
+            <value>
+                <fullName>Finiquito</fullName>
+                <default>false</default>
+                <label>Finiquito</label>
+            </value>
+            <value>
+                <fullName>Finiquito Administrativo</fullName>
+                <default>false</default>
+                <label>Finiquito Administrativo</label>
+            </value>
+            <value>
+                <fullName>Litigio</fullName>
+                <default>false</default>
+                <label>Litigio</label>
+            </value>
+            <value>
+                <fullName>Reestructura</fullName>
+                <default>false</default>
+                <label>Reestructura</label>
+            </value>
+            <value>
+                <fullName>Regularización de Reestructura</fullName>
+                <default>false</default>
+                <label>Regularización de Reestructura</label>
+            </value>
+            <value>
+                <fullName>Remate</fullName>
+                <default>false</default>
+                <label>Remate</label>
+            </value>
+            <value>
+                <fullName>Adjudicación a Postor</fullName>
+                <default>false</default>
+                <label>Adjudicación a Postor</label>
+            </value>
+            <value>
+                <fullName>Finiquito a Plazos</fullName>
+                <default>false</default>
+                <label>Finiquito a Plazos</label>
+            </value>
+            <value>
+                <fullName>Pago Parcial</fullName>
+                <default>false</default>
+                <label>Pago Parcial</label>
+            </value>
+            <value>
+                <fullName>Toma de Posesión</fullName>
+                <default>false</default>
+                <label>Toma de Posesión</label>
+            </value>
+            <value>
+                <fullName>Regularización</fullName>
+                <default>false</default>
+                <label>Regularización</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
